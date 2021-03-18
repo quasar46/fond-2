@@ -1,4 +1,17 @@
 @import "../../node_modules/normalize.scss/normalize.scss";
-@import "../fonts/stylesheet.scss";
+// @import "../fonts/stylesheet.scss";
 @import "variables.scss";
 @import "base.scss";
+
+@import "blocks/header";
+@import "blocks/headerWrapper";
+@import "blocks/mainHero";
+@import "blocks/titleInner";
+@import "blocks/wrapperMissionFond";
+@import "blocks/missionFond";
+@import "blocks/wrapperInfoByFond";
+@import "blocks/infoByFond";
+@import "blocks/largeLink";
+@import "blocks/wrapperFondsInWorld";
+@import "blocks/tabsFondsInWorld";
+@import "blocks/fondsInWorld";

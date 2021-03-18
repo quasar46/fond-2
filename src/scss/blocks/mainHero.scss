@@ -1,0 +1,31 @@
+.mainHero {
+    background-color: $color-red;
+    padding-bottom: 40px;
+}
+
+.mainHero__wrapper {
+    max-width: 807px;
+}
+
+.mainHero__title {
+    padding-top: 70px;
+    padding-bottom: 110px;
+    font-size: 156px;
+    font-weight: 500;
+    font-family: $font-title;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.mainHero__subtitle {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    h4 {
+        font-weight: 500;
+        margin-right: 30px;
+    }
+    p {
+        font-weight: 300;
+    }
+}

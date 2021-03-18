@@ -1,0 +1,51 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerWrapper__logo {
+    flex: 0 1 285px;
+}
+
+.headerWrapper__nav {
+    display: flex;
+    a {
+        position: relative;
+        padding-left: 95px;
+    }
+    span {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.headerWrapper__burger {
+    margin-right: 190px;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background-image: url("../images/burger.svg");
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.headerWrapper__help {
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background-image: url("../images/help-btn.svg");
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+}

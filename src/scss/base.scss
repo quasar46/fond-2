@@ -10,17 +10,18 @@ html {
 }
 
 body {
-	font-family: $font-base;
+	font-family: $font-content;
 	color: $color-base;
-	font-size: 18px;
+	font-size: 36px;
 	font-weight: 400;
+	line-height: 1.5;
 }
 
 .container {
 	position: relative;
 	max-width: 1920px;
 	width: 100%;
-	padding: 0 15px;
+	padding: 0 140px;
 	margin: 0 auto;
 }
 

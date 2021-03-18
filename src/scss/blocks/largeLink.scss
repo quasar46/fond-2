@@ -1,0 +1,26 @@
+.largeLink {
+    background-color: $color-red;
+    a {
+        position: relative;
+        display: block;
+        font-size: 70px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.4;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            width: 41px;
+            height: 41px;
+            background-image: url("../images/arrow-white.svg");
+            background-size: cover;
+            background-position: none;
+        }
+    }
+}

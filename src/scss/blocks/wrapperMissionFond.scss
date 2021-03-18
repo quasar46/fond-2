@@ -1,0 +1,25 @@
+.wrapperMissionFond {
+    max-width: 1080px;
+    margin-left: auto;
+}
+
+.wrapperMissionFond__content {
+    padding-bottom: 70px;
+}
+
+.wrapperMissionFond__list {
+    display: flex;
+    p {
+        font-size: 24px;
+    }
+}
+
+.wrapperMissionFond__item {
+    img {
+        display: block;
+        width: 99px;
+        height: 99px;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+}

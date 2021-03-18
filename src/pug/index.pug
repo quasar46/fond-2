@@ -5,9 +5,124 @@ html(lang="ru")
     body
         include modules/header.pug
 
+        //- section.mainHero
+        section.mainHero 
+            .container
+                .mainHero__wrapper 
+                    h1.mainHero__title Фонд целевого капитала
+                    .mainHero__subtitle
+                        h4 Учредитель
+                        p Благотворительный фонд помощи детям с онкогематологическими и иными тяжелыми заболеваниями  «Подари жизнь»
+
+        //- section.missionFond
+        section.missionFond
+            .container 
+                h2.missionFond__title.titleInner Миссия ФЦК фонда
+                .missionFond__wrapper.wrapperMissionFond 
+                    .wrapperMissionFond__content 
+                        p Мы хотим, чтобы любой ребенок или молодой взрослый с онкологическим или гематологическим заболеванием мог получить самую эффективную и современную медицинскую помощь, а также немедицинскую поддержку
+                    ul.wrapperMissionFond__list
+                        li.wrapperMissionFond__item
+                            img(src="images/mis1.svg" alt="")
+                            p Все программы фонда направлены прежде всего на защиту интересов ребенка и его права на получение своевременной качественной медицинской помощи. 
+                        li.wrapperMissionFond__item
+                            img(src="images/mis2.svg" alt="")
+                            p Программы финансируются только    за счет частных пожертвований и помощи бизнеса, не за счет государственных грантов и субсидий. 
+
+        //- section.infoByFond 
+        section.infoByFond 
+            .container 
+                h2.infoByFond__title.titleInner Зачем учредили эндаумент-фонд?
+                .infoByFond__wrapper.wrapperInfoByFond 
+                    .wrapperInfoByFond__col
+                        p Долгосрочная перспектива развития
+                    .wrapperInfoByFond__col
+                        p Фонд «Подари жизнь» уже давно рассматривал возможность создания эндаумент-фонда. Были аргументы как «за», так и «против». 
+                        p Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий...
+                        a(href="/").wrapperInfoByFond__btn.btnMore Читать больше
+
+        //- section.container.largeLink 
+        section.container.largeLink 
+            a(href="/")  УК «Сбер-управление активами»
+
+        //- section.fondsInWorld 
+        section.fondsInWorld 
+            .container
+                h2.fondsInWorld__title.titleInner Эндаумент-фонды в мире
+                .fondsInWorld__wrapper.wrapperFondsInWorld
+                    .wrapperFondsInWorld__content
+                        p Благодаря эндаумент-фондам американские и европейские ВУЗы удерживают лидерство в науке, привлекают лучших преподавателей, финансируют самые амбициозные исследования, помогают талантливым студентам
+                    //- tabs
+                    .wrapperFondsInWorld__tabs.tabsFondsInWorld#tabs
+                        ul.tabsFondsInWorld__head
+                            li
+                                a(href="#europe") В Европе
+                            li
+                                a(href="#usa") В США
+                            li
+                                a(href="#russia") В России
+                        .tabsFondsInWorld__item#europe
+                            table 
+                                tr
+                                    td Фонд Нобеля SEK 
+                                    td SEK 4,9 млрд
+                                tr
+                                    td Кембриджский университет
+                                    td €5,4 млрд
+                                tr
+                                    td Оксфордский университет
+                                    td €4,3 млрд
+                                tr
+                                    td Университет Цюриха 
+                                    td €960 млн
+                        .tabsFondsInWorld__item#usa
+                            table 
+                                tr
+                                    td Фонд Нобеля SEK 
+                                    td SEK 4,9 млрд
+                                tr
+                                    td Кембриджский университет
+                                    td €5,4 млрд
+                                tr
+                                    td Оксфордский университет
+                                    td €4,3 млрд
+                                tr
+                                    td Университет Цюриха 
+                                    td €960 млн
+                        .tabsFondsInWorld__item#russia
+                            table 
+                                tr
+                                    td Фонд Нобеля SEK 
+                                    td SEK 4,9 млрд
+                                tr
+                                    td Кембриджский университет
+                                    td €5,4 млрд
+                                tr
+                                    td Оксфордский университет
+                                    td €4,3 млрд
+                                tr
+                                    td Университет Цюриха 
+                                    td €960 млн
+
+        //- section.infoByFond 
+        section.infoByFond.infoByFond--red
+            .container 
+                h2.infoByFond__title.titleInner Как работает эндаумент-фонд?
+                .infoByFond__wrapper.wrapperInfoByFond 
+                    .wrapperInfoByFond__col
+                        p Стабильность помощи нашим подопечным
+                    .wrapperInfoByFond__col
+                        p Мы рассчитываем, что эндаумент создаст для фонда «Подари жизнь» стабильный ресурс с долгосрочной перспективой развития, а также даст возможность избежать потенциальных рисков, связанных с изменениями показателей состояния рынка (например, во время экономического кризиса) 
 
 
-        include modules/footer.pug
 
 
-    include modules/script.pugА
+
+
+
+
+
+        //- include modules/footer.pug
+
+
+    include modules/script.pug
