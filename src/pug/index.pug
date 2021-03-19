@@ -53,7 +53,7 @@ html(lang="ru")
                     .wrapperFondsInWorld__content
                         p Благодаря эндаумент-фондам американские и европейские ВУЗы удерживают лидерство в науке, привлекают лучших преподавателей, финансируют самые амбициозные исследования, помогают талантливым студентам
                     //- tabs
-                    .wrapperFondsInWorld__tabs.tabsFondsInWorld#tabs
+                    .wrapperFondsInWorld__tabs.tabsFondsInWorld.tabs
                         ul.tabsFondsInWorld__head
                             li
                                 a(href="#europe") В Европе
@@ -114,15 +114,148 @@ html(lang="ru")
                     .wrapperInfoByFond__col
                         p Мы рассчитываем, что эндаумент создаст для фонда «Подари жизнь» стабильный ресурс с долгосрочной перспективой развития, а также даст возможность избежать потенциальных рисков, связанных с изменениями показателей состояния рынка (например, во время экономического кризиса) 
 
+        //- section.advantages
+        section.advantages
+            .container
+                h2.advantages__title.titleInner Преимущества эндаумент-фонда
+                h4.advantages__subtitle Вечная социальная инвестиция
+                ul.advantages__slider.sliderAdvantages
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/mis1.svg" alt="")
+                        .sliderAdvantages__text
+                            p Средства эндаумента приносят доход, позволяющий осуществлять проекты помощи фонда «Подари жизнь» без ограничения срока
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/mis2.svg" alt="")
+                        .sliderAdvantages__text
+                            p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/mis1.svg" alt="")
+                        .sliderAdvantages__text
+                            p Средства эндаумента приносят доход, позволяющий осуществлять проекты помощи фонда «Подари жизнь» без ограничения срока
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/mis2.svg" alt="")
+                        .sliderAdvantages__text
+                            p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
 
+        //- section.tasks
+        section.tasks
+            .container 
+                h2.tasks__title.titleInner Основные цели и задачи
+                .tasks__wrapper.wrapperTasks 
+                    p Развитие проектов немедицинской помощи пациентам клиник,  а также сбор средств на лечение и реабилитацию детей с онкологическими и гематологическими заболеваниями
+                    ul.wrapperTasks__list.listWrapperTasks
+                        li.largeLink.listWrapperTasks__item
+                            a(href="/") Проект «Пансионат Измалково»
+                        li.largeLink.listWrapperTasks__item
+                            a(href="/") Проект «Незарегистрированные лекарства»
+                        li.largeLink.listWrapperTasks__item
+                            a(href="/") Проект «Научный»
+                        li.largeLink.listWrapperTasks__item
+                            a(href="/") Проект «Качество жизни»
+                        li.wrapperTasks__btn
+                            a(href="/").wrapperInfoByFond__btn.wrapperInfoByFond__btn--white.btnMore Все проекты
 
+        //- section.faces 
+        section.faces 
+            .container 
+                h2.faces__title.titleInner Органы управления СФЦК фонда
+                //- tabs
+                .wrapperFondsInWorld__tabs.tabsFondsInWorld.wrapperFaces.tabs
+                    ul.tabsFondsInWorld__head
+                        li
+                            a(href="#fond") Совет фонда
+                        li
+                            a(href="#sovet") Попечительский совет
+                        li
+                            a(href="#director") Директор
 
+                    ul.wrapperFaces__item.itemWrapperFace#fond
+                        li.itemWrapperFace__item
+                            img(src="images/faces/1.jpg" alt="")
+                            h4.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            p Директор департамента стратегических закупок ПАО Ростелеком
+                        li.itemWrapperFace__line
+                            span
+                        li.itemWrapperFace__item
+                            img(src="images/faces/2.jpg" alt="")
+                            h4.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
+                            p Директор департамента стратегических закупок ПАО Ростелеком
+                        li.itemWrapperFace__line
+                            span
+                        li.itemWrapperFace__item
+                            img(src="images/faces/3.jpg" alt="")
+                            h4.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
+                            p  Директор департамента стратегических закупок ПАО Ростелеком 
+                    ul.wrapperFaces__item.itemWrapperFace#sovet
+                        li.itemWrapperFace__item
+                            img(src="images/faces/2.jpg" alt="")
+                            h4.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            p Директор департамента стратегических закупок ПАО Ростелеком
+                        li.itemWrapperFace__line
+                            span
+                        li.itemWrapperFace__item
+                            img(src="images/faces/3.jpg" alt="")
+                            h4.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
+                            p Директор департамента стратегических закупок ПАО Ростелеком
+                        li.itemWrapperFace__line
+                            span
+                        li.itemWrapperFace__item
+                            img(src="images/faces/1.jpg" alt="")
+                            h4.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
+                            p  Директор департамента стратегических закупок ПАО Ростелеком 
+                    ul.wrapperFaces__item.itemWrapperFace#director
+                        li.itemWrapperFace__item
+                            img(src="images/faces/3.jpg" alt="")
+                            h4.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            p Директор департамента стратегических закупок ПАО Ростелеком
+                        li.itemWrapperFace__line
+                            span
+                        li.itemWrapperFace__item
+                            img(src="images/faces/1.jpg" alt="")
+                            h4.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
+                            p Директор департамента стратегических закупок ПАО Ростелеком
+                        li.itemWrapperFace__line
+                            span
+                        li.itemWrapperFace__item
+                            img(src="images/faces/2.jpg" alt="")
+                            h4.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
+                            p  Директор департамента стратегических закупок ПАО Ростелеком 
 
+        //- section.largeLink 
+        section.largeLinkGroup
+            .container
+                .largeLinkGroup__wrapper
+                    a(href="/").largeLink Отчетность
+                    span.hr
+                    a(href="/").largeLink Учредительные документы
 
+        //- section.feedback
+        section.feedback 
+            .container 
+                .feedback__title.titleInner Сделать пожертвование 
+                form(action="get").feedback__form.formFeedback
+                    p
+                        input(type="text" placeholder="Имя")
+                        input(type="text" placeholder="Фамилия")
+                    p
+                        input(type="text" placeholder="E-mail")
+                    p.select
+                        select
+                            option(value="") 100 
+                            option(value="") 200
+                            option(value="") 300
+                    i.hr 
+                    .formFeedback__consent 
+                        p Нажимая  «Помочь», я соглашаетесь с условиями <a href="/">договора-оферты</a> и даю согласие на <a href="/">обработку персональных данных</a>.
+                    .formFeedback__submit 
+                        button Помочь
 
-
-
-        //- include modules/footer.pug
+        //- footer
+        include modules/footer.pug
 
 
     include modules/script.pug

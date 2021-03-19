@@ -1,0 +1,29 @@
+.wrapperFooter {
+    .hr {
+        display: block;
+        height: 1px;
+        background-color: #fff;
+        margin: 40px 0;
+    }
+}
+
+.wrapperFooter__up {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.wrapperFooter__down {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperFooter__head {
+    margin-bottom: 40px;
+}
+
+.wrapperFooter__logo {
+    max-width: 265px;
+    width: 100%;
+}

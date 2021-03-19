@@ -1,0 +1,22 @@
+.wrapperTasks {
+    p {
+        margin-bottom: 80px;
+    }
+}
+
+.wrapperTasks__list {
+    .listWrapperTasks__item {
+        border-bottom: 1px solid #fff;
+        a {
+            font-size: 60px;
+            font-weight: 500;
+            color: #fff;
+        }
+        &:hover,
+        &:focus {
+            a {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+    }
+}

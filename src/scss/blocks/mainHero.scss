@@ -1,6 +1,18 @@
 .mainHero {
+    position: relative;
     background-color: $color-red;
     padding-bottom: 40px;
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 1920px;
+        height: 800px;
+        background-image: url("../images/back/hands-top.svg");
+        background-repeat: no-repeat;
+        bottom: -180px;
+        left: 0;
+    }
 }
 
 .mainHero__wrapper {

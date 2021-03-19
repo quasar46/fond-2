@@ -1,0 +1,22 @@
+footer {
+    position: relative;
+    background-color: $color-red;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 40px;
+    a {
+        color: #fff;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        background-image: url("../images/back/footerFlower.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 1893px;
+        height: 1157px;
+        left: 0;
+        top: -240%;
+    }
+}

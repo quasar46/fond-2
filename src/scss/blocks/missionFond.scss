@@ -1,4 +1,17 @@
 .missionFond {
+    position: relative;
     padding-top: 150px;
     padding-bottom: 150px;
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        background-image: url("../images/back/missionFlower.svg");
+        width: 539px;
+        height: 791px;
+        background-size: cover;
+        bottom: -70px;
+        left: 0;
+        z-index: 3;
+    }
 }

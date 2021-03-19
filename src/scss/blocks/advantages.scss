@@ -1,0 +1,31 @@
+.advantages {
+    position: relative;
+    padding-top: 465px;
+    padding-bottom: 245px;
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        background-image: url("../images/back/advFlower.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 788px;
+        height: 441px;
+        top: 55%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+}
+
+.advantages__title {
+    padding-top: 20px;
+    border-top: 2px solid $color-base;
+}
+
+.advantages__subtitle {
+    font-size: 40px;
+    font-weight: 400;
+    max-width: 335px;
+    margin-bottom: 115px;
+}

@@ -1,0 +1,71 @@
+.formFeedback {
+    max-width: 1080px;
+    p {
+        display: flex;
+        flex: 1 0 auto;
+        margin-bottom: 30px;
+        input,
+        select {
+            width: 100%;
+            border: 1px solid #c4c4c4;
+            height: 69px;
+            padding: 0 30px;
+            font-size: 20px;
+            color: #808080;
+        }
+        select {
+            appearance: none;
+        }
+        &.select {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url("../images/arrow-select.svg");
+                width: 28px;
+                height: 15px;
+                background-size: contain;
+                display: block;
+                background-repeat: no-repeat;
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        &:first-child {
+            input {
+                width: 50%;
+                &:first-child {
+                    margin-right: 45px;
+                }
+            }
+        }
+    }
+}
+
+.formFeedback__consent {
+    p {
+        display: block;
+        font-size: 20px;
+        a {
+            color: $color-red;
+            font-size: inherit;
+        }
+    }
+}
+
+.formFeedback__submit {
+    button {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        font-size: 24px;
+        font-weight: 300;
+        height: 90px;
+        padding-right: 120px;
+        background-image: url("../images/arrow-btn-red.svg");
+        background-size: 90px auto;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}

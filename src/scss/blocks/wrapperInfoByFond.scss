@@ -6,6 +6,7 @@
     &:first-child {
         font-size: 40px;
         margin-right: 230px;
+        flex: 1 0 340px;
     }
 }
 
@@ -26,5 +27,11 @@
         background-image: url("../images/plus.svg");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    &--white {
+        color: #fff;
+        &:after {
+            background-image: url("../images/plus-white.svg");
+        }
     }
 }
