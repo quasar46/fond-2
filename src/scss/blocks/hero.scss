@@ -1,0 +1,17 @@
+.hero {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-color: $color-red;
+    color: #fff;
+
+    .br {
+        display: block;
+    }
+}
+
+.hero__title {
+    font-size: 150px;
+    font-family: $font-title;
+    line-height: 1.1;
+    font-weight: 500;
+}

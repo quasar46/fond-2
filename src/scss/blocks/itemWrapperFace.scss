@@ -9,10 +9,11 @@
         object-fit: cover;
     }
 
-    p {
+    .itemWrapperFace__subtitle {
         font-size: 24px;
         color: #808080;
-        flex: 0 1 auto;
+        // flex: 0 1 auto;
+        font-weight: 400;
     }
 
     &:last-child {
@@ -33,7 +34,7 @@
     }
 }
 
-li.itemWrapperFace__line {
+.itemWrapperFace__line {
     position: relative;
     width: 1px;
 
@@ -45,5 +46,31 @@ li.itemWrapperFace__line {
         top: 0;
         left: 0;
         background-color: #c4c4c4;
+    }
+}
+
+.itemWrapperFace--book {
+    flex-wrap: wrap;
+
+    .itemWrapperFace__title {
+        order: 0;
+    }
+
+    .itemWrapperFace__subtitle {
+        font-weight: 400;
+        margin-bottom: 40px;
+        order: 1;
+        flex:1 0 auto;
+    }
+
+    .itemWrapperFace__label {
+        font-weight: 400;
+        margin-bottom: 40px;
+        order: 3;
+        flex:1 0 100%;
+    }
+
+    img {
+        order: 2;
     }
 }

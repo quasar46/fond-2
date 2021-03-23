@@ -1,0 +1,30 @@
+.burgerMenuNav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        position: relative;
+        font-size: 60px;
+        font-weight: 500;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #A0A0A0;
+
+        &:hover {
+            color: $color-red;
+
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 41px;
+                height: 41px;
+                background-image: url("../images/arrow-diag-red.svg");
+                background-repeat: no-repeat;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

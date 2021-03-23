@@ -2,4 +2,17 @@
     position: relative;
     padding: 150px 0;
     z-index: 1;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        background-image: url("../images/back/footerFlower.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 1893px;
+        height: 1157px;
+        left: 0;
+        bottom: -80px;
+    }
 }
