@@ -3,15 +3,18 @@
     flex-direction: column;
     flex: 0 1 517px;
     overflow: hidden;
+
     img {
         height: 465px;
         object-fit: cover;
     }
+
     p {
         font-size: 24px;
         color: #808080;
         flex: 0 1 auto;
     }
+
     &:last-child {
         border-right: none;
         margin-right: 0;
@@ -24,6 +27,7 @@
     font-weight: 500;
     line-height: 1.3;
     flex: 1 0 auto;
+
     .br {
         display: block;
     }
@@ -32,6 +36,7 @@
 li.itemWrapperFace__line {
     position: relative;
     width: 1px;
+
     span {
         position: absolute;
         display: block;
