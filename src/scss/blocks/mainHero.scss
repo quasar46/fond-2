@@ -2,6 +2,11 @@
     position: relative;
     background-color: $color-red;
     padding-bottom: 40px;
+    height: 743px;
+    > .container {
+        display: flex;
+    }
+
     &::after {
         content: "";
         position: absolute;
@@ -10,18 +15,19 @@
         height: 800px;
         background-image: url("../images/back/hands-top.svg");
         background-repeat: no-repeat;
-        bottom: -180px;
+        bottom: -157px;
         left: 0;
     }
 }
 
 .mainHero__wrapper {
     max-width: 807px;
+    margin-top: auto;
 }
 
 .mainHero__title {
-    padding-top: 70px;
-    padding-bottom: 110px;
+    padding-top: 45px;
+    padding-bottom: 90px;
     font-size: 156px;
     font-weight: 500;
     font-family: $font-title;
