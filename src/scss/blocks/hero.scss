@@ -1,8 +1,13 @@
 .hero {
-    padding-top: 130px;
+    display: flex;
     padding-bottom: 100px;
     background-color: $color-red;
     color: #fff;
+    height: 620px;
+
+    .container {
+        margin-top: auto;
+    }
 
     .br {
         display: block;

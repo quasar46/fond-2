@@ -1,0 +1,75 @@
+doctype html
+html(lang="ru")
+    head
+        include modules/head.pug
+    body
+        include modules/header.pug
+
+        //- section.hero
+        section.hero 
+            .container 
+                .hero__breadcrumbs.breadcrumbs
+                    a(href="index.html") Главная
+                    span |
+                    a(href="projects.html") Проекты 
+                    span |
+                    a.current | Пансионат Измалково
+                h1.hero__title Пансионат <i class="br"></i> Измалково
+
+        //- section.project 
+        section.project 
+            .container 
+                .project__content.innerContent
+                    p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.  
+                .reports__summ.reportsSumm
+                    h2.titleInner Годовой бюджет
+                    p.reportsSumm__count 750 000 ₽
+                    p.reportsSumm__text расходы проекта «Пансионат Измалково» в 2019 году
+                .project__description.projectDescription 
+                    h2.titleInner Описание проекта
+                    .projectDescription__wrapper 
+                        .projectDescription__col 
+                            p Вечная социальная инвестиция
+                        .projectDescription__col 
+                            .projectDescription__text
+                                p Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. 
+                            ul 
+                                li
+                                    p сбор средств на лечение и реабилитацию детей с онкологическими и гематологическими заболеваниями;
+                                li
+                                    p помощь онкологическим и гематологическим клиникам, где лечатся дети и молодые взрослые;
+                                li
+                                    p привлечение общественного внимания к проблемам больных детей;
+                                li
+                                    p содействие развитию безвозмездного донорства крови;
+
+        //- section.fotodate
+        section.fotodate 
+            .container 
+                h2.titleInner Фотоматериалы
+                .fotodate__slick.fotodateSlick 
+                    .fotodateSlick__item
+                        img(src="images/fotodate/item1.jpg" alt="")
+                        p Какое-то описание к фотографии/подпись в одну-две строки. 
+                    .fotodateSlick__item
+                        img(src="images/fotodate/item2.jpg" alt="")
+                        p Какое-то описание к фотографии/подпись в одну-две строки. 
+                    .fotodateSlick__item
+                        img(src="images/fotodate/item1.jpg" alt="")
+                        p Какое-то описание к фотографии/подпись в одну-две строки. 
+                    .fotodateSlick__item
+                        img(src="images/fotodate/item1.jpg" alt="")
+                        p Какое-то описание к фотографии/подпись в одну-две строки. 
+                    .fotodateSlick__item
+                        img(src="images/fotodate/item2.jpg" alt="")
+                        p Какое-то описание к фотографии/подпись в одну-две строки. 
+                    .fotodateSlick__item
+                        img(src="images/fotodate/item1.jpg" alt="")
+                        p Какое-то описание к фотографии/подпись в одну-две строки. 
+
+
+        //- footer
+        include modules/footer.pug
+
+
+    include modules/script.pug

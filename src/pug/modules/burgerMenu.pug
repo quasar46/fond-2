@@ -1,18 +1,21 @@
 .burgerMenu 
     .container 
         .burgerMenu__link.burgerMenuLink
-            a.burgerMenuLink__item(href="/") Поиск
+            a.burgerMenuLink__item(href="/") 
+                span Поиск
                 img(src="images/icons/search.svg" alt="")
-            a.burgerMenuLink__item(href="/") Меню
+            a.burgerMenuLink__item.toggle(href="/") 
+                span Меню
                 img(src="images/icons/burger-menu.svg" alt="")
-            a.burgerMenuLink__item(href="/") Помочь
+            a.burgerMenuLink__item(href="/") 
+                span Помочь
                 img(src="images/icons/help.svg" alt="")
         nav.burgerMenu__nav.burgerMenuNav 
-            a(href="/") Проекты 
-            a(href="/") Отчеты
-            a(href="/") Управляющая компания
-            a(href="/") Книга дарителей
-            a(href="/") Учредительные документы
+            a(href="projects.pug") Проекты 
+            a(href="reports.html") Отчеты
+            a(href="company.html") Управляющая компания
+            a(href="book.html") Книга дарителей
+            a(href="documents.html") Учредительные документы
         ul.burgerMenu__social.burgerMenuSocial 
             li
                 a(href="/") 

@@ -1,0 +1,29 @@
+.btnMore {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 80px;
+    padding-right: 120px;
+    align-self: start;
+
+    &--white {
+        color: #fff;
+
+        &:after {
+            background-image: url("../images/plus-white.svg");
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 90px;
+        height: 90px;
+        background-image: url(../images/plus.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

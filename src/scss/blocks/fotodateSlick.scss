@@ -1,0 +1,51 @@
+.fotodate__slick {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: 1px solid #c4c4c4;
+    // border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 150px !important;
+
+    .slick-list {
+        margin-left: -70px;
+        margin-right: -70px;
+        margin-bottom: 60px;
+    }
+
+    .slick-dots {
+        border-top: 1px solid #c4c4c4;
+        border-bottom: 1px solid #c4c4c4;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .slick-active {
+            a {
+                color: $color-red;
+            }
+        }
+
+        a {
+            font-size: 24px;
+        }
+    }
+
+    .slick-arrow {
+        top: calc(100% + -14px);
+    }
+}
+
+.fotodateSlick__item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-right: 1px solid #c4c4c4;
+
+    img {
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}

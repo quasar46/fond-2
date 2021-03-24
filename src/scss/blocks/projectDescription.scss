@@ -1,0 +1,42 @@
+.projectDescription__wrapper {
+    display: flex;
+}
+
+.projectDescription__col {
+    &:first-child {
+        flex: 1 0 auto;
+        max-width: 334px;
+        margin-right: 220px;
+    }
+
+    &:last-child {
+        flex: 0 1 auto;
+
+
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                position: relative;
+                padding-left: 50px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 19px;
+                    height: 19px;
+                    background-color: $color-red;
+                    border-radius: 50%;
+                    top: 20px;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+
+.projectDescription__text {
+    margin-bottom: 50px;
+}

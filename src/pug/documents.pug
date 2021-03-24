@@ -1,0 +1,40 @@
+doctype html
+html(lang="ru")
+    head
+        include modules/head.pug
+    body
+        include modules/header.pug
+
+        //- section.hero
+        section.hero 
+            .container 
+                .hero__breadcrumbs.breadcrumbs
+                    a(href="index.html") Главная
+                    span |
+                    a.current | Учредительные документы
+                h1.hero__title Учредительные <i class="br"></i> документы
+
+        //- section.faces 
+        section.documents 
+            .container 
+                .documents__content.innerContent
+                    p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.  
+                ul.documents__list.documentsList 
+                    li.documentsList__item
+                        a(href="images/documents/item1.jpg" data-fancybox="gallery")  
+                            img(src="images/documents/item1.jpg" alt="")
+                        p Свидетельство о государственной регистрации
+                    li.documentsList__item
+                        a(href="images/documents/item2.jpg" data-fancybox="gallery")  
+                            img(src="images/documents/item2.jpg" alt="")
+                        p Свидетельство о государственной регистрации
+                    li.documentsList__item
+                        a(href="images/documents/item3.jpg" data-fancybox="gallery")  
+                            img(src="images/documents/item3.jpg" alt="")
+                        p Свидетельство о государственной регистрации
+
+        //- footer
+        include modules/footer.pug
+
+
+    include modules/script.pug

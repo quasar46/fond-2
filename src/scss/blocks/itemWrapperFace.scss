@@ -1,8 +1,12 @@
 .itemWrapperFace__item {
+    position: relative;
     display: flex;
     flex-direction: column;
-    flex: 0 1 517px;
+    flex: 1 0 517px;
     overflow: hidden;
+    border-right: 1px solid #C4C4C4;
+    padding-right: 20px;
+    padding-left: 20px;
 
     img {
         height: 465px;
@@ -34,20 +38,20 @@
     }
 }
 
-.itemWrapperFace__line {
-    position: relative;
-    width: 1px;
+// .itemWrapperFace__line {
+//     position: relative;
+//     width: 1px;
 
-    span {
-        position: absolute;
-        display: block;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: #c4c4c4;
-    }
-}
+//     span {
+//         position: absolute;
+//         display: block;
+//         height: 100%;
+//         width: 100%;
+//         top: 0;
+//         left: 0;
+//         background-color: #c4c4c4;
+//     }
+// }
 
 .itemWrapperFace--book {
     flex-wrap: wrap;
@@ -58,19 +62,30 @@
 
     .itemWrapperFace__subtitle {
         font-weight: 400;
-        margin-bottom: 40px;
+        padding-bottom: 40px;
         order: 1;
-        flex:1 0 auto;
     }
 
     .itemWrapperFace__label {
+        font-size: 24px;
         font-weight: 400;
         margin-bottom: 40px;
         order: 3;
-        flex:1 0 100%;
+        height: 100%;
     }
 
     img {
         order: 2;
+        margin-bottom: 40px;
+    }
+
+    .itemLine {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #C4C4C4;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 }
