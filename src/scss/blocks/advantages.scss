@@ -1,6 +1,6 @@
 .advantages {
     position: relative;
-    padding-top: 465px;
+    padding-top: 480px;
     padding-bottom: 245px;
     &::after {
         content: "";
@@ -19,7 +19,7 @@
 }
 
 .advantages__title {
-    padding-top: 20px;
+    padding-top: 10px;
     border-top: 2px solid $color-base;
 }
 
@@ -27,5 +27,5 @@
     font-size: 40px;
     font-weight: 400;
     max-width: 335px;
-    margin-bottom: 115px;
+    margin-bottom: 100px;
 }

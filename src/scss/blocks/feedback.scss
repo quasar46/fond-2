@@ -1,9 +1,10 @@
 .feedback {
     position: relative;
-    padding: 150px 0;
+    padding-top: 120px;
+    padding-bottom: 165px;
     z-index: 1;
 
-    &::after {
+    &::before {
         content: "";
         position: absolute;
         display: block;
@@ -15,4 +16,11 @@
         left: 0;
         bottom: -80px;
     }
+}
+
+.formFeedback__consent {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #c4c4c4;
+    margin-bottom: 40px;
 }

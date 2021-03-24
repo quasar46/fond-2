@@ -1,11 +1,13 @@
 .wrapperFaces {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
     border-bottom: 1px solid #c4c4c4;
-    border-top: 1px solid #c4c4c4;
+
+    &--book {
+        border-top: 1px solid #c4c4c4;
+        padding-top: 25px;
+    }
 }
 
 .wrapperFaces__item {
     display: flex;
-    // justify-content: space-between;
 }

@@ -1,15 +1,19 @@
 .reportsInner {
     display: flex;
     flex-direction: column;
+    .reportsInner__btn {
+        margin-top: 50px;
+    }
 }
 
 .reportsInner__link {
     position: relative;
     font-size: 60px;
     font-weight: 500;
-    padding-top: 30px;
+    padding-top: 0;
     padding-bottom: 20px;
-    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #c4c4c4;
 
     &:hover {
         color: $color-red;
@@ -29,3 +33,4 @@
         }
     }
 }
+

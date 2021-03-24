@@ -1,5 +1,5 @@
 .wrapperMissionFond {
-    max-width: 1080px;
+    max-width: 1120px;
     margin-left: auto;
 }
 
@@ -20,6 +20,9 @@
         width: 99px;
         height: 99px;
         object-fit: cover;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    &:first-child {
+        margin-right: 90px;
     }
 }

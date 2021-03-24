@@ -1,17 +1,21 @@
 .tabsFondsInWorld__head {
     display: flex;
     border-bottom: 1px solid #c4c4c4;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+
     li {
         margin-right: 80px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+
         &.ui-tabs-active {
             a {
                 color: $color-red;
             }
+
             border-bottom: 2px solid $color-red;
         }
     }
+
     a {
         font-size: 30px;
         font-weight: 500;
@@ -22,11 +26,16 @@
 
 .tabsFondsInWorld__item {
     font-size: 24px;
+
     table {
         width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 11px;
+
         tr {
             td {
                 line-height: 1.5;
+
                 &:last-child {
                     text-align: right;
                 }

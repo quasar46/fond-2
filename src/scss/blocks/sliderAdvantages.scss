@@ -22,6 +22,7 @@
 .sliderAdvantages__item {
     position: relative;
     padding-right: 20px;
+    padding-bottom: 70px;
     &:nth-child(even) {
         & > * {
             margin-left: 85px;
@@ -45,7 +46,7 @@
     width: 64px;
     height: 64px;
     z-index: 1;
-    top: calc(100% + 50px);
+    top: calc(100% + 83px);
 }
 
 .slick-next {

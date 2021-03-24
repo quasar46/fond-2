@@ -5,22 +5,27 @@
 .largeLinkGroup__wrapper {
     display: flex;
     flex-direction: column;
+
     .largeLink {
         position: relative;
         font-size: 60px;
         font-weight: 500;
         background-color: transparent;
         display: flex;
+
         &:first-child {
-            padding-top: 80px;
-            padding-bottom: 50px;
-        }
-        &:last-child {
             padding-top: 50px;
-            padding-bottom: 80px;
+            padding-bottom: 33px;
         }
+
+        &:last-child {
+            padding-top: 33px;
+            padding-bottom: 70px;
+        }
+
         &:hover {
             color: $color-red;
+
             &::after {
                 content: "";
                 position: absolute;
@@ -36,6 +41,7 @@
             }
         }
     }
+
     .hr {
         height: 1px;
         width: 100%;

@@ -1,9 +1,12 @@
 .fondsInWorld {
     position: relative;
-    padding: 150px 0;
+    padding-top: 120px;
+    padding-bottom: 140px;
+
     .container {
         z-index: 5;
     }
+
     &::after {
         content: "";
         position: absolute;

@@ -1,4 +1,5 @@
 .hero {
+    position: relative;
     display: flex;
     padding-bottom: 100px;
     background-color: $color-red;
@@ -12,6 +13,67 @@
     .br {
         display: block;
     }
+
+    &--book {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 610px;
+            height: 1060px;
+            right: 0;
+            top: 0;
+            background-image: url("../images/back/bookFlower.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &--reports {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 778px;
+            height: 995px;
+            right: 0;
+            top: 0;
+            background-image: url("../images/back/reportsFlower.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &--project {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 834px;
+            height: 774px;
+            right: 0;
+            top: 300px;
+            background-image: url("../images/back/documentsFlower.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+&--documents {
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 834px;
+        height: 774px;
+        right: 0;
+        top: 300px;
+        background-image: url("../images/back/documentsFlower.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 }
 
 .hero__title {

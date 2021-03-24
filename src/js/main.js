@@ -35,3 +35,7 @@ $('.fotodateSlick').slick({
         return '<a>' + (index + 1) + '</a>';
     }
 });
+
+$('.btnMore').click(function () {
+    $('.wrapperInfoByFond__text').toggleClass('show');
+})

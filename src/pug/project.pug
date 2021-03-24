@@ -6,14 +6,14 @@ html(lang="ru")
         include modules/header.pug
 
         //- section.hero
-        section.hero 
+        section.hero.hero--project
             .container 
                 .hero__breadcrumbs.breadcrumbs
                     a(href="index.html") Главная
                     span |
                     a(href="projects.html") Проекты 
                     span |
-                    a.current | Пансионат Измалково
+                    a.current Пансионат Измалково
                 h1.hero__title Пансионат <i class="br"></i> Измалково
 
         //- section.project 
@@ -22,7 +22,7 @@ html(lang="ru")
                 .project__content.innerContent
                     p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.  
                 .reports__summ.reportsSumm
-                    h2.titleInner Годовой бюджет
+                    h2.titleInner.reportsSumm__title Годовой бюджет
                     p.reportsSumm__count 750 000 ₽
                     p.reportsSumm__text расходы проекта «Пансионат Измалково» в 2019 году
                 .project__description.projectDescription 

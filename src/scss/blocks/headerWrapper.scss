@@ -11,6 +11,8 @@
 .headerWrapper__nav {
     display: flex;
     a {
+        display: flex;
+        align-items: center;
         position: relative;
         padding-left: 95px;
     }
