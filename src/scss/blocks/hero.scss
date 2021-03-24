@@ -58,23 +58,23 @@
             background-size: cover;
         }
     }
-}
 
-&--documents {
-    &::after {
-        content: "";
-        position: absolute;
-        display: block;
-        width: 834px;
-        height: 774px;
-        right: 0;
-        top: 300px;
-        background-image: url("../images/back/documentsFlower.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
+    &--documents {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 834px;
+            height: 774px;
+            right: 0;
+            top: 300px;
+            background-image: url("../images/back/documentsFlower.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
 }
-}
+
 
 .hero__title {
     font-size: 150px;

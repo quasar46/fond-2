@@ -38,4 +38,13 @@ $('.fotodateSlick').slick({
 
 $('.btnMore').click(function () {
     $('.wrapperInfoByFond__text').toggleClass('show');
-})
+});
+
+$(window).resize(function () {
+    let breakpoints = ["1366", "768", "320"];
+    let currentWidth = $(document).width();
+
+    if (currentWidth <= breakpoints[0]) {
+        $('.itemWrapperFace__item:nth-child(3n)').addClass('active');
+    } 
+});
