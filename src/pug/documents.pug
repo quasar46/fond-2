@@ -2,7 +2,7 @@ doctype html
 html(lang="ru")
     head
         include modules/head.pug
-    body
+    body.innerPage
         include modules/header.pug
 
         //- section.hero
@@ -17,7 +17,7 @@ html(lang="ru")
         //- section.faces 
         section.documents 
             .container 
-                .documents__content.innerContent
+                .innerPage__description
                     p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.  
                 ul.documents__list.documentsList 
                     li.documentsList__item

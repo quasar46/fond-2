@@ -73,6 +73,9 @@
             background-size: cover;
         }
     }
+    &--new {
+        height: 420px;
+    }
 }
 
 
@@ -81,4 +84,7 @@
     font-family: $font-title;
     line-height: 1.1;
     font-weight: 500;
+    &--new {
+        font-size: 80px;
+    }
 }

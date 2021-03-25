@@ -1,0 +1,54 @@
+.pagination__wrapper {
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .arrow {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 64px;
+
+        button {
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+    .arrow--prev {
+        background-image: url("../images/arrow-prev.svg");
+    }
+
+    .arrow--next {
+        background-image: url("../images/arrow-next.svg");
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        li {
+            &.active {
+                color: $color-red;
+            }
+        }
+
+        span {
+            font-size: 24px;
+
+
+        }
+    }
+}
+
+.pagination__list {
+    li {
+        height: 20px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
+}

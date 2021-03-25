@@ -6,13 +6,7 @@
     padding-right: 120px;
     align-self: start;
 
-    &--white {
-        color: #fff;
 
-        &:after {
-            background-image: url("../images/plus-white.svg");
-        }
-    }
 
     &::after {
         content: "";
@@ -25,5 +19,13 @@
         background-image: url(../images/plus.svg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    &--white {
+        color: #fff;
+
+        &:after {
+            background-image: url("../images/plus-white.svg");
+        }
     }
 }

@@ -1,0 +1,20 @@
+.articleSmall {
+    display: flex;
+    padding: 60px 0;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    .article__inner {
+        padding-right: 200px;
+    }
+}
+
+.articleSmall__title {
+    font-size: 40px;
+    font-weight: 400;
+    max-width: 334px;
+}
+
+
+.articleSmall__subtitle {
+    font-size: 24px;
+}

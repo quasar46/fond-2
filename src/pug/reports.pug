@@ -2,7 +2,7 @@ doctype html
 html(lang="ru")
     head
         include modules/head.pug
-    body
+    body.innerPage
         include modules/header.pug
 
         //- section.hero
@@ -17,7 +17,7 @@ html(lang="ru")
         //- section.faces 
         section.reports 
             .container 
-                .reports__content.innerContent
+                .innerPage__description
                     p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.  
                 .reports__summ.reportsSumm 
                     h2.titleInner Общее состояние фонда
@@ -25,11 +25,16 @@ html(lang="ru")
                     p.reportsSumm__text было собрано за все время работы фонда
                 .reports__inner.reportsInner
                     h2.reportsInner__title.titleInner В разделе
-                    a(href="/" download).reportsInner__link Отчет фонда за 2020
-                    a(href="" download).reportsInner__link Отчет фонда за 2021
-                    a(href="" download).reportsInner__link Отчет фонда за 2019
-                    a(href="" download).reportsInner__link Отчет фонда за 2018
-                    a(href="").reportsInner__btn.btnMore Показать больше
+                    .reportsInner__items.show-content
+                        a(href="" download).reportsInner__link Отчет фонда за 2020
+                        a(href="" download).reportsInner__link Отчет фонда за 2021
+                        a(href="" download).reportsInner__link Отчет фонда за 2019
+                        a(href="" download).reportsInner__link Отчет фонда за 2018
+                        a(href="" download).reportsInner__link Отчет фонда за 2017
+                        a(href="" download).reportsInner__link Отчет фонда за 2016
+                        a(href="" download).reportsInner__link Отчет фонда за 2015
+                        a(href="" download).reportsInner__link Отчет фонда за 2014
+                    a.reportsInner__btn.btnMore Показать больше
 
 
 

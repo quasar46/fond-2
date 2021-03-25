@@ -1,0 +1,12 @@
+.article__inner {
+    max-width: 1080px;
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+.article__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+}

@@ -6,9 +6,13 @@
         border-top: 1px solid #c4c4c4;
         padding-top: 25px;
     }
+
+    &--mode {
+        border-bottom: 0;
+    }
 }
 
 .wrapperFaces__item {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }

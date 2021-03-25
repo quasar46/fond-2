@@ -15,8 +15,4 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
-
-    &.show {
-        -webkit-line-clamp: inherit;
-    }
 }

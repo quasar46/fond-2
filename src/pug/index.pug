@@ -23,10 +23,12 @@ html(lang="ru")
                         p Мы хотим, чтобы любой ребенок или молодой взрослый с онкологическим или гематологическим заболеванием мог получить самую эффективную и современную медицинскую помощь, а также немедицинскую поддержку
                     ul.wrapperMissionFond__list
                         li.wrapperMissionFond__item
-                            img(src="images/mis1.svg" alt="")
+                            picture
+                                img(src="/images/advantages/item1.svg" alt="")
                             p Все программы фонда направлены прежде всего на защиту интересов ребенка и его права на получение своевременной качественной медицинской помощи. 
                         li.wrapperMissionFond__item
-                            img(src="images/mis2.svg" alt="")
+                            picture
+                                img(src="/images/advantages/item2.svg" alt="")
                             p Программы финансируются только    за счет частных пожертвований и помощи бизнеса, не за счет государственных грантов и субсидий. 
 
         //- section.infoByFond 
@@ -37,14 +39,14 @@ html(lang="ru")
                     .wrapperInfoByFond__col
                         p Долгосрочная перспектива развития
                     .wrapperInfoByFond__col
-                        .wrapperInfoByFond__text
+                        .wrapperInfoByFond__text.show-content
                             p Фонд «Подари жизнь» уже давно рассматривал возможность создания эндаумент-фонда. Были аргументы как «за», так и «против». 
                             p Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий. Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий. Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий. 
                         a.btnMore Читать больше
 
         //- section.container.largeLink 
         section.container.largeLink 
-            a(href="/")  УК «Сбер-управление активами»
+            a(href="uk.html")  УК «Сбер-управление активами»
 
         //- section.fondsInWorld 
         section.fondsInWorld 
@@ -108,12 +110,15 @@ html(lang="ru")
         //- section.infoByFond 
         section.infoByFond.infoByFond--red
             .container 
-                h2.infoByFond__title.titleInner Как работает эндаумент-фонд?
-                .infoByFond__wrapper.wrapperInfoByFond 
-                    .wrapperInfoByFond__col
-                        p Стабильность помощи нашим подопечным
-                    .wrapperInfoByFond__col
-                        p Мы рассчитываем, что эндаумент создаст для фонда «Подари жизнь» стабильный ресурс с долгосрочной перспективой развития, а также даст возможность избежать потенциальных рисков, связанных с изменениями показателей состояния рынка (например, во время экономического кризиса) 
+                .infoByFond__content
+                    h2.infoByFond__title.titleInner Как работает эндаумент-фонд?
+                    .infoByFond__wrapper.wrapperInfoByFond 
+                        .wrapperInfoByFond__col
+                            p Стабильность помощи нашим подопечным
+                        .wrapperInfoByFond__col
+                            p Мы рассчитываем, что эндаумент создаст для фонда «Подари жизнь» стабильный ресурс с долгосрочной перспективой развития, а также даст возможность избежать потенциальных рисков, связанных с изменениями показателей состояния рынка (например, во время экономического кризиса) 
+                    .infoByFond__kakRabotaet 
+                        img(src="images/kak-rabotaet.jpg" alt="")
 
         //- section.advantages
         section.advantages
@@ -123,22 +128,42 @@ html(lang="ru")
                 ul.advantages__slider.sliderAdvantages
                     li.sliderAdvantages__item
                         .sliderAdvantages__picture
-                            img(src="images/mis1.svg" alt="")
+                            img(src="images/advantages/item1.svg" alt="")
                         .sliderAdvantages__text
                             p Средства эндаумента приносят доход, позволяющий осуществлять проекты помощи фонда «Подари жизнь» без ограничения срока
                     li.sliderAdvantages__item
                         .sliderAdvantages__picture
-                            img(src="images/mis2.svg" alt="")
+                            img(src="images/advantages/item2.svg" alt="")
                         .sliderAdvantages__text
                             p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
                     li.sliderAdvantages__item
                         .sliderAdvantages__picture
-                            img(src="images/mis1.svg" alt="")
+                            img(src="images/advantages/item3.svg" alt="")
                         .sliderAdvantages__text
                             p Средства эндаумента приносят доход, позволяющий осуществлять проекты помощи фонда «Подари жизнь» без ограничения срока
                     li.sliderAdvantages__item
                         .sliderAdvantages__picture
-                            img(src="images/mis2.svg" alt="")
+                            img(src="images/advantages/item4.svg" alt="")
+                        .sliderAdvantages__text
+                            p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/advantages/item5.svg" alt="")
+                        .sliderAdvantages__text
+                            p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/advantages/item6.svg" alt="")
+                        .sliderAdvantages__text
+                            p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/advantages/item7.svg" alt="")
+                        .sliderAdvantages__text
+                            p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
+                    li.sliderAdvantages__item
+                        .sliderAdvantages__picture
+                            img(src="images/advantages/item8.svg" alt="")
                         .sliderAdvantages__text
                             p Физические лица, которые передают средства в эндаумент, могут получить вычет из подоходного налога
 
@@ -150,7 +175,7 @@ html(lang="ru")
                     p Развитие проектов немедицинской помощи пациентам клиник,  а также сбор средств на лечение и реабилитацию детей с онкологическими и гематологическими заболеваниями
                     ul.wrapperTasks__list.listWrapperTasks
                         li.largeLink.listWrapperTasks__item
-                            a(href="/") Проект «Пансионат Измалково»
+                            a(href="project.html") Проект «Пансионат Измалково»
                         li.largeLink.listWrapperTasks__item
                             a(href="/") Проект «Незарегистрированные лекарства»
                         li.largeLink.listWrapperTasks__item
@@ -158,7 +183,7 @@ html(lang="ru")
                         li.largeLink.listWrapperTasks__item
                             a(href="/") Проект «Качество жизни»
                         li.wrapperTasks__btn
-                            a(href="/").btnMore.btnMore--white Все проекты
+                            a(href="projects.html").btnMore.btnMore--white Все проекты
 
         //- section.faces 
         section.faces 
@@ -179,14 +204,10 @@ html(lang="ru")
                             img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        //- li.itemWrapperFace__line
-                            span
                         li.itemWrapperFace__item
                             img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        //- li.itemWrapperFace__line
-                            span
                         li.itemWrapperFace__item
                             img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
@@ -196,14 +217,10 @@ html(lang="ru")
                             img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        //- li.itemWrapperFace__line
-                            span
                         li.itemWrapperFace__item
                             img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        //- li.itemWrapperFace__line
-                            span
                         li.itemWrapperFace__item
                             img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
@@ -213,14 +230,10 @@ html(lang="ru")
                             img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        //- li.itemWrapperFace__line
-                            span
                         li.itemWrapperFace__item
                             img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        //- li.itemWrapperFace__line
-                            span
                         li.itemWrapperFace__item
                             img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
@@ -232,7 +245,7 @@ html(lang="ru")
                 .largeLinkGroup__wrapper
                     a(href="/").largeLink Отчетность
                     span.hr
-                    a(href="/").largeLink Учредительные документы
+                    a(href="documents.html").largeLink Учредительные документы
 
         //- section.feedback
         section.feedback 
@@ -245,10 +258,13 @@ html(lang="ru")
                     p
                         input(type="text" placeholder="E-mail")
                     p.select
-                        select
-                            option(value="") 100 
-                            option(value="") 200
-                            option(value="") 300
+                        select#select
+                            option(value="1") 100 
+                            option(value="2") 200
+                            option(value="3") 300
+                            option(value="other") Другая сумма
+                    p.formFeedback__newElement
+                        input(type="text" placeholder="")
                     i.hr 
                     .formFeedback__consent 
                         p Нажимая  «Помочь», я соглашаетесь с условиями <a href="/">договора-оферты</a> и даю согласие на <a href="/">обработку персональных данных</a>.

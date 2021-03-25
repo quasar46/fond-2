@@ -1,0 +1,25 @@
+.articlePicture {
+    padding-top: 60px;
+}
+
+.articlePicture__description {
+    margin-right: 220px;
+
+    &--big {
+        font-size: 40px;
+    }
+
+    &--small {
+        font-size: 24px;
+        color: #808080;
+        border-top: 1px solid #C4C4C4;
+        margin-right: 44px;
+        padding-right: 70px;
+        padding-top: 20px;
+    }
+}
+
+.articlePicture__text {
+    font-size: 24px;
+    margin-bottom: 40px;
+}

@@ -6,12 +6,29 @@
     z-index: 2;
 }
 
+.infoByFond__content {
+    position: relative;
+    padding-bottom: 400px;
+    padding-top: 110px;
+    padding-bottom: 400px;
+}
+
 .infoByFond--red {
     background-color: $color-red;
     color: #fff;
-    padding-bottom: 400px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+
     .infoByFond__title {
         color: #fff;
         border-top: 2px solid #f6f7f8;
     }
+}
+
+
+.infoByFond__kakRabotaet {
+    position: absolute;
+    outline: 1px solid #C4C4C4;
+    transform: translate(0, 10%);
 }

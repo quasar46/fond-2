@@ -2,7 +2,7 @@ doctype html
 html(lang="ru")
     head
         include modules/head.pug
-    body
+    body.innerPage
         include modules/header.pug
 
         //- section.hero
@@ -17,7 +17,7 @@ html(lang="ru")
         //- section.faces 
         section.faces 
             .container 
-                .faces__content.innerContent
+                .innerPage__description
                     p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. 
                 .wrapperFondsInWorld__tabs.tabsFondsInWorld.wrapperFaces.wrapperFaces--book
                     ul.wrapperFaces__item.itemWrapperFace.itemWrapperFace--book
@@ -39,7 +39,24 @@ html(lang="ru")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                             p.itemWrapperFace__label Как бы мы ни понимали добро, жизнь наша есть не что иное, как стремление к добру.
-                        //- li.itemLine
+                        li.itemWrapperFace__item
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.itemWrapperFace__title Павел <i class="br"></i> Иванов
+                            h4.itemWrapperFace__subtitle Директор ПАО «Сбербанк»
+                            p.itemWrapperFace__label Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
+                        li.itemWrapperFace__item
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
+                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
+                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
+                            p.itemWrapperFace__label В диалоге с жизнью важен не ее вопрос, а наш ответ.
+                        li.itemWrapperFace__item
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
+                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
+                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
+                            p.itemWrapperFace__label Как бы мы ни понимали добро, жизнь наша есть не что иное, как стремление к добру.
                         li.itemWrapperFace__item
                             .itemWrapperFace__pic
                                 img(src="images/faces/1.jpg" alt="")

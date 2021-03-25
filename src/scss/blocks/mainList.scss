@@ -1,0 +1,26 @@
+.mainList {
+    display: flex;
+    flex-direction: column;
+
+    li {
+        position: relative;
+        padding-left: 50px;
+        margin-bottom: 18px;
+
+        p {
+            font-size: 24px;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 19px;
+            height: 19px;
+            background-color: $color-red;
+            border-radius: 50%;
+            top: 10px;
+            left: 0;
+        }
+    }
+}

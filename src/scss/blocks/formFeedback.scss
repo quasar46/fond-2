@@ -1,9 +1,11 @@
 .formFeedback {
     max-width: 1080px;
+
     p {
         display: flex;
         flex: 1 0 auto;
         margin-bottom: 30px;
+
         input,
         select {
             width: 100%;
@@ -13,12 +15,15 @@
             font-size: 20px;
             color: #808080;
         }
+
         select {
             background-color: transparent;
             appearance: none;
         }
+
         &.select {
             position: relative;
+
             &::after {
                 content: "";
                 position: absolute;
@@ -33,13 +38,23 @@
                 transform: translateY(-50%);
             }
         }
+
         &:first-child {
             input {
                 width: 50%;
+
                 &:first-child {
                     margin-right: 45px;
                 }
             }
+        }
+    }
+
+    .formFeedback__newElement {
+        display: none;
+
+        &.active {
+            display: block;
         }
     }
 }
@@ -48,6 +63,7 @@
     p {
         display: block;
         font-size: 20px;
+
         a {
             color: $color-red;
             font-size: inherit;

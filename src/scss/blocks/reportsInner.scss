@@ -1,6 +1,7 @@
 .reportsInner {
     display: flex;
     flex-direction: column;
+
     .reportsInner__btn {
         margin-top: 50px;
     }
@@ -34,3 +35,12 @@
     }
 }
 
+.reportsInner__items {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    a {
+        display: block;
+    }
+}
