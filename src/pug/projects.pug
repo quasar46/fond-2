@@ -6,7 +6,7 @@ html(lang="ru")
         include modules/header.pug
 
         //- section.hero
-        section.hero.hero--project
+        section.hero.hero--inner.hero--project
             .container 
                 .hero__breadcrumbs.breadcrumbs
                     a(href="index.html") Главная
@@ -26,7 +26,7 @@ html(lang="ru")
                             p Вечная социальная инвестиция
                         .projectDescription__col 
                             .projectDescription__text
-                                p Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. 
+                                p Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. 
                             ul.projectDescription__list.mainList
                                 li
                                     p сбор средств на лечение и реабилитацию детей с онкологическими и гематологическими заболеваниями;
@@ -40,7 +40,7 @@ html(lang="ru")
         //- section.faces 
         section.faces.faces--projects
             .container 
-                h2.faces__title.titleInner Органы управления СФЦК фонда
+                h2.faces__title.titleInner Проектная деятельность
                 //- tabs
                 .wrapperFondsInWorld__tabs.tabsFondsInWorld.wrapperFaces.wrapperFaces--mode.tabs
                     ul.tabsFondsInWorld__head
@@ -51,63 +51,75 @@ html(lang="ru")
 
                     ul.wrapperFaces__item.itemWrapperFace#projects
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
+                            h4.itemWrapperFace__subtitle Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                             p.itemWrapperFace__date 11.03.2021
                     ul.wrapperFaces__item.itemWrapperFace#news
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                             p.itemWrapperFace__date 11.03.2021
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                             p.itemWrapperFace__date 11.03.2021

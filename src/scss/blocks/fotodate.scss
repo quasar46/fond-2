@@ -1,52 +1,13 @@
+.fotodate {
+    padding-top: 100px;
+}
+
 .fotodate__slick {
     display: flex;
     flex-wrap: wrap;
     padding-top: 60px;
     padding-bottom: 60px;
     border-top: 1px solid #c4c4c4;
-
-    // .slick-list {
-    //     margin-left: -70px;
-    //     margin-right: -70px;
-    //     margin-bottom: 60px;
-    //     padding-bottom: 30px;
-    // }
-
-    // .slick-dots {
-    //     border-top: 1px solid #c4c4c4;
-    //     border-bottom: 1px solid #c4c4c4;
-    //     padding-top: 50px;
-    //     padding-bottom: 50px;
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-
-    //     li {
-    //         display: flex;
-    //         padding: 0;
-    //         margin: 0 10px;
-    //     }
-
-    //     .slick-active {
-    //         a {
-    //             color: $color-red;
-
-    //         }
-    //     }
-
-    //     a {
-    //         display: block;
-    //         font-size: 24px;
-    //         position: absolute;
-    //         top: 0;
-    //         left: 0;
-    //         line-height: 1;
-    //     }
-    // }
-
-    // .slick-arrow {
-    //     top: calc(100% + -14px);
-    // }
 }
 
 .fotodateSlick__item {

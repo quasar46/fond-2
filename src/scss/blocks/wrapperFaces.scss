@@ -1,18 +1,30 @@
 .wrapperFaces {
     padding-bottom: 65px;
-    border-bottom: 1px solid #c4c4c4;
+    overflow: hidden;
 
     &--book {
         border-top: 1px solid #c4c4c4;
         padding-top: 25px;
+        padding-bottom: 0;
     }
 
     &--mode {
         border-bottom: 0;
+
+        .wrapperFaces__item {
+            li {
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
     }
 }
 
 .wrapperFaces__item {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -1px;
+    margin-left: -22px;
+    margin-right: -22px;
 }

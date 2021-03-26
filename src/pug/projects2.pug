@@ -1,0 +1,96 @@
+doctype html
+html(lang="ru")
+    head
+        include modules/head.pug
+    body.innerPage
+        include modules/header.pug
+
+        //- section.hero
+        section.hero.hero--inner.hero--project
+            .container 
+                .hero__breadcrumbs.breadcrumbs
+                    a(href="index.html") Главная
+                    span |
+                    a.current Проекты
+                h1.hero__title Проекты
+
+        //- section.project 
+        section.project 
+            .container 
+                .innerPage__description
+                    p Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.  
+                .project__description.projectDescription 
+                    h2.titleInner Почему важна поддержка проектов?
+                    .projectDescription__wrapper 
+                        .projectDescription__col 
+                            p Вечная социальная инвестиция
+                        .projectDescription__col 
+                            .projectDescription__text
+                                p Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. 
+                            ul.projectDescription__list.mainList
+                                li
+                                    p сбор средств на лечение и реабилитацию детей с онкологическими и гематологическими заболеваниями;
+                                li
+                                    p помощь онкологическим и гематологическим клиникам, где лечатся дети и молодые взрослые;
+                                li
+                                    p привлечение общественного внимания к проблемам больных детей;
+                                li
+                                    p содействие развитию безвозмездного донорства крови;
+
+        //- section.faces 
+        section.faces.faces--projects
+            .container 
+                h2.faces__title.titleInner Проектная деятельность
+                //- tabs
+                .wrapperFondsInWorld__tabs.tabsFondsInWorld.wrapperFaces.wrapperFaces--mode.tabs
+                    ul.tabsFondsInWorld__head
+                        li
+                            a(href="#projects") Проекты
+                        li
+                            a(href="#news") Новости
+
+                    ul.wrapperFaces__item.itemWrapperFace#projects
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Пансионат Измалково
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Незарегистрированные лекарства
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Научный
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Качество жизни
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+
+                    ul.wrapperFaces__item.itemWrapperFace#news
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+                        li.itemWrapperFace__item.itemWrapperFace__item--mode
+                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
+
+
+        //- pagination
+        include modules/pagination.pug
+
+        //- footer
+        include modules/footer.pug
+
+
+    include modules/script.pug

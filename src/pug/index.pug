@@ -24,11 +24,11 @@ html(lang="ru")
                     ul.wrapperMissionFond__list
                         li.wrapperMissionFond__item
                             picture
-                                img(src="/images/advantages/item1.svg" alt="")
+                                img(src="images/advantages/item1.svg" alt="")
                             p Все программы фонда направлены прежде всего на защиту интересов ребенка и его права на получение своевременной качественной медицинской помощи. 
                         li.wrapperMissionFond__item
                             picture
-                                img(src="/images/advantages/item2.svg" alt="")
+                                img(src="images/advantages/item2.svg" alt="")
                             p Программы финансируются только    за счет частных пожертвований и помощи бизнеса, не за счет государственных грантов и субсидий. 
 
         //- section.infoByFond 
@@ -201,41 +201,50 @@ html(lang="ru")
 
                     ul.wrapperFaces__item.itemWrapperFace#fond
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                     ul.wrapperFaces__item.itemWrapperFace#sovet
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
                     ul.wrapperFaces__item.itemWrapperFace#director
                         li.itemWrapperFace__item
-                            img(src="images/faces/3.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/3.jpg" alt="")
                             h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                         li.itemWrapperFace__item
-                            img(src="images/faces/1.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/1.jpg" alt="")
                             h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
                             h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
                         li.itemWrapperFace__item
-                            img(src="images/faces/2.jpg" alt="")
+                            .itemWrapperFace__pic
+                                img(src="images/faces/2.jpg" alt="")
                             h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
                             h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
 
@@ -259,6 +268,7 @@ html(lang="ru")
                         input(type="text" placeholder="E-mail")
                     p.select
                         select#select
+                            option(selected="selected") Выберите сумму
                             option(value="1") 100 
                             option(value="2") 200
                             option(value="3") 300
