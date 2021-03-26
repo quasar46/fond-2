@@ -27,4 +27,9 @@
             background-image: url("../images/plus-white.svg");
         }
     }
+    &.active {
+        &::after {
+            background-image: url("../images/minus.svg");
+        }
+    }
 }

@@ -1,0 +1,137 @@
+.tabs {
+    padding-bottom: 65px;
+    overflow: hidden;
+
+    &--book {
+        border-top: 1px solid #c4c4c4;
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+
+    &--mode {
+        border-bottom: 0;
+
+        .wrapperFaces__item {
+            li {
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.tabs__head {
+    display: flex;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 60px;
+
+    li {
+        margin-right: 80px;
+        padding-bottom: 20px;
+
+        &.ui-tabs-active {
+            a {
+                color: $color-red;
+            }
+
+            border-bottom: 2px solid $color-red;
+        }
+    }
+
+    a {
+        font-size: 30px;
+        font-weight: 500;
+        color: #808080;
+        line-height: 1.1;
+    }
+}
+
+.tabs__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1px;
+    margin-left: -22px;
+    margin-right: -22px;
+
+    &--mode {
+        margin-left: -70px;
+        margin-right: -70px;
+    }
+}
+
+.tabs__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    overflow: hidden;
+    border-right: 1px solid #C4C4C4;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    img {
+        display: block;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    &--mode {
+        width: 50%;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+
+    &:hover {
+        h2 {
+            color: $color-red;
+        }
+    }
+}
+
+.tabs__pic {
+    height: 465px;
+    // margin-top: 40px;
+    // margin-bottom: 25px;
+
+    &--mode {
+        height: 515px;
+    }
+}
+
+.tabs__title {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    height: 100%;
+
+    .br {
+        display: block;
+    }
+}
+
+.tabs__text {
+    font-size: 24px;
+    color: #808080;
+    font-weight: 400;
+    height: 100%;
+}
+
+.tabs__line,
+.tabs__line--mode {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+
+.tabs__date {
+    font-size: 24px;
+    color: #808080;
+    margin-top: 30px;
+    margin-left: auto;
+    padding-bottom: 30px;
+}

@@ -58,7 +58,7 @@ gulp.task("images", function () {
                 interlaced: true
             }),
             imagemin.mozjpeg({
-                quality: 75,
+                quality: 50,
                 progressive: true
             }),
             imagemin.optipng({

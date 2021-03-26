@@ -1,5 +1,6 @@
 .largeLink {
     background-color: $color-red;
+
     a {
         position: relative;
         display: block;
@@ -10,8 +11,11 @@
         padding-top: 50px;
         padding-bottom: 80px;
     }
+
     &:hover {
         a {
+            color: rgba(255, 255, 255, .8);
+
             &::after {
                 content: "";
                 position: absolute;

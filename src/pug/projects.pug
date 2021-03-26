@@ -23,7 +23,7 @@ html(lang="ru")
                     h2.titleInner Почему важна поддержка проектов?
                     .projectDescription__wrapper 
                         .projectDescription__col 
-                            p Вечная социальная инвестиция
+                            p.sideTitle Вечная социальная инвестиция
                         .projectDescription__col 
                             .projectDescription__text
                                 p Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. 
@@ -42,87 +42,69 @@ html(lang="ru")
             .container 
                 h2.faces__title.titleInner Проектная деятельность
                 //- tabs
-                .wrapperFondsInWorld__tabs.tabsFondsInWorld.wrapperFaces.wrapperFaces--mode.tabs
-                    ul.tabsFondsInWorld__head
+                .tabs
+                    ul.tabs__head
                         li
                             a(href="#projects") Проекты
                         li
                             a(href="#news") Новости
 
-                    ul.wrapperFaces__item.itemWrapperFace#projects
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                    ul.tabs__content.tabs__content--mode#projects
+                        li.tabs__item.tabs__item--mode
+                            h2.tabs__title Пансионат Измалково
+                            .tabs__pic.tabs__pic--mode
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                        li.tabs__item.tabs__item--mode
+                            h2.tabs__title Незарегистрированные лекарства
+                            .tabs__pic.tabs__pic--mode
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
-                            p.itemWrapperFace__date 11.03.2021
-                    ul.wrapperFaces__item.itemWrapperFace#news
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                        li.tabs__item.tabs__item--mode
+                            h2.tabs__title Научный
+                            .tabs__pic.tabs__pic--mode
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                            p.itemWrapperFace__date 11.03.2021
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                        li.tabs__item.tabs__item--mode
+                            h2.tabs__title Качество жизни
+                            .tabs__pic.tabs__pic--mode
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
-                            p.itemWrapperFace__date 11.03.2021
+
+                    ul.tabs__content#news
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Акции и события фонда
+                            h4.tabs__text Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
+                            p.tabs__date 12.03.2021
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Акции и события фонда
+                            h4.tabs__text В диалоге с жизнью важен не ее вопрос, а наш ответ.
+                            p.tabs__date 12.03.2021
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Заголовок новости
+                            h4.tabs__text Как бы мы ни понимали добро, жизнь наша есть не что иное, как стремление к добру.
+                            p.tabs__date 12.03.2021
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Акции и события фонда
+                            h4.tabs__text Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
+                            p.tabs__date 12.03.2021
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Акции и события фонда
+                            h4.tabs__text В диалоге с жизнью важен не ее вопрос, а наш ответ.
+                            p.tabs__date 12.03.2021
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Заголовок новости
+                            h4.tabs__text Как бы мы ни понимали добро, жизнь наша есть не что иное, как стремление к добру.
+                            p.tabs__date 12.03.2021
+
 
 
         //- pagination

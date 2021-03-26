@@ -124,7 +124,7 @@ html(lang="ru")
         section.advantages
             .container
                 h2.advantages__title.titleInner Преимущества эндаумент-фонда
-                h4.advantages__subtitle Вечная социальная инвестиция
+                h4.advantages__subtitle.sideTitle Вечная социальная инвестиция
                 ul.advantages__slider.sliderAdvantages
                     li.sliderAdvantages__item
                         .sliderAdvantages__picture
@@ -170,7 +170,7 @@ html(lang="ru")
         //- section.tasks
         section.tasks
             .container 
-                h2.tasks__title.titleInner Основные цели и задачи
+                h2.tasks__title.titleInner Наши проекты
                 .tasks__wrapper.wrapperTasks 
                     p Развитие проектов немедицинской помощи пациентам клиник,  а также сбор средств на лечение и реабилитацию детей с онкологическими и гематологическими заболеваниями
                     ul.wrapperTasks__list.listWrapperTasks
@@ -186,12 +186,12 @@ html(lang="ru")
                             a(href="projects.html").btnMore.btnMore--white Все проекты
 
         //- section.faces 
-        section.faces 
+        section.faces.faces--index
             .container 
                 h2.faces__title.titleInner Органы управления СФЦК фонда
                 //- tabs
-                .wrapperFondsInWorld__tabs.tabsFondsInWorld.wrapperFaces.tabs
-                    ul.tabsFondsInWorld__head
+                .tabs
+                    ul.tabs__head
                         li
                             a(href="#fond") Совет фонда
                         li
@@ -199,54 +199,56 @@ html(lang="ru")
                         li
                             a(href="#director") Директор
 
-                    ul.wrapperFaces__item.itemWrapperFace#fond
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                    ul.tabs__content#fond
+                        li.tabs__item
+                            .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
-                    ul.wrapperFaces__item.itemWrapperFace#sovet
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                        li.tabs__item
+                            .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
-                    ul.wrapperFaces__item.itemWrapperFace#director
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/3.jpg" alt="")
-                            h2.itemWrapperFace__title Чулпан <i class="br"></i> Хаматова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                        li.tabs__item
+                            .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.itemWrapperFace__title Екатерина <i class="br"></i> Шергова
-                            h4.itemWrapperFace__subtitle Директор департамента стратегических закупок ПАО Ростелеком
-                        li.itemWrapperFace__item
-                            .itemWrapperFace__pic
-                                img(src="images/faces/2.jpg" alt="")
-                            h2.itemWrapperFace__title Оксана <i class="br"></i> Гайдаш
-                            h4.itemWrapperFace__subtitle  Директор департамента стратегических закупок ПАО Ростелеком 
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                    ul.tabs__content#sovet
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                    ul.tabs__content#director
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+                        li.tabs__item
+                            .tabs__pic
+                                img(src="images/faces/1.jpg" alt="")
+                            h2.tabs__title Чулпан <i class="br"></i> Хаматова
+                            h4.tabs__text Директор департамента стратегических закупок ПАО Ростелеком
+
+
 
         //- section.largeLink 
         section.largeLinkGroup
@@ -257,7 +259,7 @@ html(lang="ru")
                     a(href="documents.html").largeLink Учредительные документы
 
         //- section.feedback
-        section.feedback 
+        section.feedback#feedback
             .container 
                 .feedback__title.titleInner Сделать пожертвование 
                 form(action="get").feedback__form.formFeedback
