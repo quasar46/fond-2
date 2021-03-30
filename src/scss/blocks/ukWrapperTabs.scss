@@ -5,41 +5,64 @@
         // margin-bottom: 20px;
         border-bottom: 1px solid #C4C4C4;
 
+        &+div {
+            display: none;
+        }
+
         button {
             display: block;
             background-color: transparent;
             border: none;
             font-size: 60px;
             font-weight: 500;
-            line-height: 1;
+            line-height: 1.4;
             padding-top: 30px;
             padding-bottom: 20px;
+
         }
 
-        &.active {
+        &.active,
+        &:hover {
             button {
                 color: $color-red;
-
-
             }
 
+
+        }
+
+        &:hover {
             &::after {
                 content: "";
                 position: absolute;
                 display: block;
-                width: 64px;
-                height: 3px;
-                background-color: $color-red;
+                width: 90px;
+                height: 90px;
+                background-image: url("../images/plus-2.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
                 right: 0;
                 top: 50%;
                 transform: translateY(-50%);
             }
         }
 
-        &+div {
-            display: none;
+        &.active {
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 67px;
+                height: 3px;
+                background-image: url("../images/minus-2.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
         }
     }
+
 }
 
 .ukWrapperTabs__content {

@@ -84,5 +84,8 @@
         background-size: 90px auto;
         background-repeat: no-repeat;
         background-position: right;
+        &:hover {
+            opacity: 0.9;
+        }
     }
 }

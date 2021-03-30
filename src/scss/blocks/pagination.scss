@@ -10,10 +10,14 @@
         background-repeat: no-repeat;
         background-position: center;
         width: 64px;
+        cursor: pointer;
 
         button {
             border: none;
             background-color: transparent;
+        }
+        &:hover {
+            opacity: 0.9;
         }
     }
 
@@ -47,8 +51,9 @@
 .pagination__list {
     li {
         height: 20px;
-        margin-right: 20px;
+        padding: 0 10px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 }
