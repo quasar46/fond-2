@@ -3,13 +3,13 @@
 .burgerMenu 
     .container 
         .burgerMenu__link.burgerMenuLink
-            a.burgerMenuLink__item(href="/") 
+            a(href="/").burgerMenuLink__item#search
                 span Поиск
                 img(src="images/icons/search.svg" alt="")
-            a.burgerMenuLink__item.toggle(href="/") 
+            a(href="/").burgerMenuLink__item.toggle
                 span Меню
                 img(src="images/icons/burger-menu.svg" alt="")
-            a.burgerMenuLink__item(href="/") 
+            a(href="/").burgerMenuLink__item
                 span Помочь
                 img(src="images/icons/help.svg" alt="")
         nav.burgerMenu__nav.burgerMenuNav 

@@ -69,11 +69,9 @@ $(window).resize(function () {
     $('.tabs__line').remove();
     if (breakpoints[0] <= currentWidth) {
         $('.item__first:nth-child(3n)').after($('<li class="tabs__line"></li>'));
-        console.log('Больше 1366');
     } else if (currentWidth <= breakpoints[1] && currentWidth > breakpoints[2]) {
         $('.item__first').removeClass('current');
         $('.item__first:nth-child(3n)').addClass('current');
-        console.log('768');
     } else console.log('1');
 }).trigger('resize');
 
@@ -112,3 +110,15 @@ changeOption = function () {
     });
 };
 changeOption();
+
+$(document).ready(function () {
+    $('#search').click(function (event) {
+        event.preventDefault();
+        $('.search').toggleClass('active');
+        $('.burgerMenu__panel').removeClass('active');
+        $('.burgerMenu').css("display", "none");
+    })
+    $('.search__cross').click(function () {
+        $('.search').removeClass('active');
+    })
+})

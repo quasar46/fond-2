@@ -1,4 +1,15 @@
 header.header 
+    // search
+    .header__search.search
+        .container
+            .search__input 
+                input(type="text" placeholder="Поиск по сайту")
+            .search__btns 
+                button 
+                    img(src="images/icons/search-large.svg", alt="")
+                img(src="images/line.svg", alt="").search__line
+                button
+                    img(src="images/icons/cross.svg", alt="").search__cross
     .container
         .header__wrapper.headerWrapper
             a(href="index.html").headerWrapper__logo 
