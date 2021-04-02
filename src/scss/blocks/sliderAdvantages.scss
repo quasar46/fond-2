@@ -13,10 +13,16 @@
         display: block;
         z-index: 1;
     }
+    @media (max-width: 1366px) {
+        max-width: 80px;
+    }
 }
 
 .sliderAdvantages__text {
     font-size: 24px;
+    @media (max-width: 1366px) {
+        font-size: 20px;
+    }
 }
 
 .sliderAdvantages__item {

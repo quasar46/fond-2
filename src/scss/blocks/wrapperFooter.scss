@@ -11,12 +11,18 @@
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    @media (max-width: 1366px) {
+        font-size: 20px;
+    }
 }
 
 .wrapperFooter__down {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 1366px) {
+        font-size: 18px;
+    }
 }
 
 .wrapperFooter__head {
@@ -26,4 +32,7 @@
 .wrapperFooter__logo {
     max-width: 265px;
     width: 100%;
+    @media (max-width: 1366px) {
+        max-width: 220px;
+    }
 }

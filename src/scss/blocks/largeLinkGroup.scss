@@ -40,6 +40,9 @@
                 background-repeat: none;
             }
         }
+        @media (max-width: 1366px) {
+            font-size: 48px;
+        }
     }
 
     .hr {

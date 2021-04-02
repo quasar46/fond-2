@@ -16,6 +16,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	overflow-x: hidden;
+
 	&.hid {
 		overflow: hidden;
 	}
@@ -27,6 +28,10 @@ body {
 	width: 100%;
 	padding: 0 140px;
 	margin: 0 auto;
+
+	@media (max-width: 1366px) {
+		padding: 0 100px;
+	}
 }
 
 img {
@@ -58,7 +63,8 @@ li {
 
 .visually-hidden {
 	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px 1px 1px 1px);
+	/* IE6, IE7 */
 	clip: rect(1px, 1px, 1px, 1px);
 	padding: 0 !important;
 	border: 0 !important;

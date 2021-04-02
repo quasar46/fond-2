@@ -5,4 +5,7 @@
 
 .wrapperFondsInWorld__content {
     margin-bottom: 60px;
+    @media (max-width: 1366px) {
+        font-size: 30px;
+    }
 }

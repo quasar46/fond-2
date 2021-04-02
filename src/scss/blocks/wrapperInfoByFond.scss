@@ -8,6 +8,11 @@
         margin-right: 230px;
         flex: 1 0 340px;
     }
+    &:last-child {
+        @media (max-width: 1366px) {
+            font-size: 30px;
+        }
+    }
 }
 
 .wrapperInfoByFond__text {
@@ -15,4 +20,7 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    @media (max-width: 1366px) {
+        font-size: 30px;
+    }
 }

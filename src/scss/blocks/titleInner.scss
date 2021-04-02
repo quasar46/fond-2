@@ -5,4 +5,7 @@
     font-family: $font-title;
     color: $color-base;
     padding-bottom: 50px;
+    @media (max-width: 1366px) {
+        font-size: 60px;
+    }
 }

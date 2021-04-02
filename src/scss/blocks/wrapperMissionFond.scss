@@ -5,12 +5,20 @@
 
 .wrapperMissionFond__content {
     padding-bottom: 70px;
+    @media (max-width: 1366px) {
+        font-size: 30px;
+        margin-left: auto;
+        max-width: 770px;
+    }
 }
 
 .wrapperMissionFond__list {
     display: flex;
     p {
         font-size: 24px;
+        @media (max-width: 1366px) {
+            font-size: 20px;
+        }
     }
 }
 
@@ -21,6 +29,10 @@
         height: 99px;
         object-fit: cover;
         margin-bottom: 20px;
+        @media (max-width: 1366px) {
+            width: 80px;
+            height: 80px;
+        }
     }
     &:first-child {
         margin-right: 90px;

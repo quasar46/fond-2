@@ -1,3 +1,6 @@
 .sideTitle {
     font-family: $font-title;
+    @media (max-width: 1366px) {
+        font-size: 36px;
+    }
 }

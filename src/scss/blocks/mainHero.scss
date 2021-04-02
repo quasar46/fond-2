@@ -18,6 +18,9 @@
         bottom: -157px;
         left: 0;
     }
+    @media (max-width: 1366px) {
+        height: 545px;
+    }
 }
 
 .mainHero__wrapper {
@@ -33,6 +36,10 @@
     font-family: $font-title;
     color: #fff;
     line-height: 1.1;
+    @media (max-width: 1366px) {
+        font-size: 106px;
+        padding-bottom: 50px;
+    }
 }
 
 .mainHero__subtitle {
@@ -42,8 +49,17 @@
     h4 {
         font-weight: 500;
         margin-right: 30px;
+        @media (max-width: 1366px) {
+            font-size: 18px;
+        }
     }
     p {
         font-weight: 300;
+        @media (max-width: 1366px) {
+            font-size: 18px;
+        }
+    }
+    @media (max-width: 1366px) {
+        max-width: 505px;
     }
 }

@@ -18,6 +18,10 @@
         background-image: url(../images/plus.svg);
         background-repeat: no-repeat;
         background-size: cover;
+        @media (max-width: 1366px) {
+            width: 75px;
+            height: 75px;
+        }
     }
 
     &--white {
@@ -27,7 +31,7 @@
             background-image: url("../images/plus-white.svg");
         }
         &:hover {
-            opacity:0.9;
+            opacity: 0.9;
         }
     }
 
@@ -41,5 +45,8 @@
         &::after {
             opacity: 0.9;
         }
+    }
+    @media (max-width: 1366px) {
+        font-size: 20px;
     }
 }
