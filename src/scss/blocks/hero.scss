@@ -16,6 +16,10 @@
 
     &--inner {
         margin-bottom: 150px;
+
+        @media(max-width: 1366px) {
+            margin-bottom: 75px;
+        }
     }
 
     &--mode {
@@ -81,8 +85,14 @@
             background-size: cover;
         }
     }
+
     &--new {
         height: 420px;
+    }
+
+    @media(max-width: 1366px) {
+        height: 462px;
+        padding-bottom: 55px;
     }
 }
 
@@ -92,7 +102,12 @@
     font-family: $font-title;
     line-height: 1.1;
     font-weight: 500;
+
     &--new {
         font-size: 80px;
+    }
+
+    @media(max-width: 1366px) {
+        font-size: 110px;
     }
 }

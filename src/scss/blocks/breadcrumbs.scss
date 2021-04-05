@@ -5,6 +5,10 @@
     a {
         color: #fff;
         font-size: 20px;
+
+        @media(max-width: 1366px) {
+            font-size: 18px;
+        }
     }
 
     a[href] {
@@ -18,5 +22,9 @@
     span {
         font-size: 20px;
         padding: 0 10px;
+    }
+
+    @media(max-width: 1366px) {
+        margin-bottom: 0;
     }
 }

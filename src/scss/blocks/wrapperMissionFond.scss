@@ -1,26 +1,46 @@
 .wrapperMissionFond {
-    max-width: 1120px;
-    margin-left: auto;
+    // max-width: 1120px;
+    // margin-left: auto;
+
+    @media(max-width: 1024px) {
+        // max-width: 575px;
+    }
 }
 
 .wrapperMissionFond__content {
     padding-bottom: 70px;
+
     @media (max-width: 1366px) {
         font-size: 30px;
         margin-left: auto;
         max-width: 770px;
         padding-bottom: 50px;
     }
+
+    @media(max-width: 1024px) {
+        padding-bottom: 37px;
+    }
+
+    // @media(max-width: 1024px) {
+    //     max-width: 575px;
+    // }
 }
 
 .wrapperMissionFond__list {
     display: flex;
+
     p {
         font-size: 24px;
+
         @media (max-width: 1366px) {
             font-size: 20px;
         }
+
+        @media(max-width: 1024px) {
+            font-size: 18px;
+        }
     }
+
     @media(max-width: 1366px) {
         max-width: 770px;
         margin-left: auto;
@@ -34,17 +54,26 @@
         height: 99px;
         object-fit: cover;
         margin-bottom: 20px;
+
         @media (max-width: 1366px) {
             width: 80px;
             height: 80px;
         }
+
+        @media(max-width: 1024px) {
+            width: 75px;
+            height: 75px;
+        }
     }
+
     &:first-child {
         margin-right: 90px;
+
         @media(max-width: 1366px) {
             margin-right: 0;
         }
     }
+
     &:last-child {
         @media(max-width: 1366px) {
             // margin-left: 100px;

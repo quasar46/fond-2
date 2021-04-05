@@ -5,6 +5,7 @@
 .largeLinkGroup__wrapper {
     display: flex;
     flex-direction: column;
+    padding: 30px 0;
 
     .largeLink {
         position: relative;
@@ -12,15 +13,24 @@
         font-weight: 500;
         background-color: transparent;
         display: flex;
+        padding: 30px 0;
 
         &:first-child {
-            padding-top: 50px;
-            padding-bottom: 33px;
+
+
+            @media(max-width: 1366px) {
+                // padding-bottom: 23px;
+            }
         }
 
         &:last-child {
-            padding-top: 33px;
-            padding-bottom: 70px;
+            // padding-top: 33px;
+            // padding-bottom: 70px;
+
+            @media(max-width: 1366px) {
+                // padding-top: 20px;
+                // padding-bottom: 60px;
+            }
         }
 
         &:hover {
@@ -40,8 +50,13 @@
                 background-repeat: none;
             }
         }
+
         @media (max-width: 1366px) {
             font-size: 48px;
+        }
+
+        @media(max-width: 1024px) {
+            font-size: 36px;
         }
     }
 
@@ -50,5 +65,9 @@
         width: 100%;
         display: block;
         background-color: #c4c4c4;
+    }
+
+    @media(max-width: 1024px) {
+        padding: 6px 0;
     }
 }

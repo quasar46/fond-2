@@ -13,4 +13,9 @@ footer {
             color: rgba(255, 255, 255, .8);
         }
     }
+
+    @media(max-width: 1366px) {
+        margin-top: 115px;
+        padding-top: 70px;
+    }
 }

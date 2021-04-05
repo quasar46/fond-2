@@ -4,6 +4,10 @@
         height: 1px;
         background-color: #fff;
         margin: 40px 0;
+
+        @media(max-width: 1366px) {
+            margin: 30px 0;
+        }
     }
 }
 
@@ -11,8 +15,13 @@
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+
     @media (max-width: 1366px) {
         font-size: 20px;
+    }
+
+    @media(max-width: 1024px) {
+        font-size: 18px;
     }
 }
 
@@ -20,18 +29,28 @@
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+
     @media (max-width: 1366px) {
         font-size: 18px;
+    }
+
+    @media(max-width: 1024px) {
+        font-size: 16px;
     }
 }
 
 .wrapperFooter__head {
     margin-bottom: 40px;
+
+    @media(max-width: 1366px) {
+        margin-bottom: 25px;
+    }
 }
 
 .wrapperFooter__logo {
     max-width: 265px;
     width: 100%;
+
     @media (max-width: 1366px) {
         max-width: 220px;
     }

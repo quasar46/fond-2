@@ -2,12 +2,23 @@
     position: relative;
     background-color: #f6f7f8;
     padding-top: 110px;
-    padding-bottom: 130px;
+    padding-bottom: 110px;
     z-index: 2;
 
     @media(max-width: 1366px) {
         padding-top: 70px;
-        padding-bottom: 110px;
+        padding-bottom: 80px;
+    }
+
+    @media(max-width: 1024px) {
+        padding-top: 55px;
+        padding-bottom: 70px;
+    }
+}
+
+.infoByFond__title {
+    @media(max-width: 1024px) {
+        padding-bottom: 45px;
     }
 }
 
@@ -20,6 +31,11 @@
     @media(max-width: 1366px) {
         padding-top: 90px;
         padding-bottom: 300px;
+    }
+
+    @media(max-width: 1024px) {
+        padding-top: 68px;
+        padding-bottom: 230px;
     }
 }
 

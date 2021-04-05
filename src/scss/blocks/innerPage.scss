@@ -7,4 +7,10 @@
         padding-bottom: 0;
         margin-bottom: 0;
     }
+
+    @media(max-width: 1366px) {
+        font-size: 30px;
+        max-width: 768px;
+        margin-bottom: 113px;
+    }
 }

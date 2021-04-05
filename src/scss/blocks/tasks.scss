@@ -2,10 +2,15 @@
     background-color: $color-red;
     color: #fff;
     padding-top: 82px;
-    padding-bottom: 140px;
+    padding-bottom: 125px;
 
     @media(max-width: 1366px) {
-        padding-top: 69px;
+        padding-top: 60px;
+        padding-bottom: 85px;
+    }
+
+    @media(max-width: 1024px) {
+        padding-bottom: 70px;
     }
 }
 

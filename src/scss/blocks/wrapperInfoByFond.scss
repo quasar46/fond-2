@@ -5,17 +5,21 @@
 .wrapperInfoByFond__col {
     &:first-child {
         font-size: 40px;
-        margin-right: 230px;
-        flex: 1 0 340px;
+        margin-right: 50px;
+        max-width: 490px;
 
         @media(max-width: 1366px) {
-            margin-right: 60px;
+            // margin-right: 125px;
         }
     }
 
     &:last-child {
         @media (max-width: 1366px) {
             font-size: 30px;
+        }
+
+        @media(max-width: 1024px) {
+            font-size: 28px;
         }
     }
 }
@@ -25,8 +29,16 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    margin-bottom: 50px;
+    p {
+        margin-bottom: 10px;
+    }
 
     @media (max-width: 1366px) {
         font-size: 30px;
+    }
+
+    @media(max-width: 1024px) {
+        font-size: 28px;
     }
 }

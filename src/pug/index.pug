@@ -18,7 +18,7 @@ html(lang="ru")
         section.missionFond
             .container 
                 h2.missionFond__title.titleInner Миссия ФЦК фонда
-                .missionFond__wrapper.wrapperMissionFond 
+                .missionFond__wrapper.wrapperMissionFond.side-container
                     .wrapperMissionFond__content 
                         p Мы хотим, чтобы любой ребенок или молодой взрослый с онкологическим или гематологическим заболеванием мог получить самую эффективную и современную медицинскую помощь, а также немедицинскую поддержку
                     ul.wrapperMissionFond__list
@@ -38,21 +38,23 @@ html(lang="ru")
                 .infoByFond__wrapper.wrapperInfoByFond 
                     .wrapperInfoByFond__col
                         p.sideTitle Долгосрочная перспектива развития
-                    .wrapperInfoByFond__col
+                    .wrapperInfoByFond__col.side-container
                         .wrapperInfoByFond__text.show-content
                             p Фонд «Подари жизнь» уже давно рассматривал возможность создания эндаумент-фонда. Были аргументы как «за», так и «против». 
                             p Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий. Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий. Но в 2020 году в жизни некоммерческих организаций, в том числе и фонда   «Подари жизнь», произошли серьезные изменения, которые подтолкнули нас к необходимости новых действий. 
-                        a.btnMore Читать больше
+                        a.btnMore 
+                            span Читать больше
+                            img(src="images/plus.svg", alt="")
 
         //- section.container.largeLink 
-        section.container.largeLink 
+        section.container.largeLink.largeLink--main
             a(href="uk.html")  УК «Сбер-управление активами»
 
         //- section.fondsInWorld 
         section.fondsInWorld 
             .container
                 h2.fondsInWorld__title.titleInner Эндаумент-фонды в мире
-                .fondsInWorld__wrapper.wrapperFondsInWorld
+                .fondsInWorld__wrapper.wrapperFondsInWorld.side-container
                     .wrapperFondsInWorld__content
                         p Благодаря эндаумент-фондам американские и европейские ВУЗы удерживают лидерство в науке, привлекают лучших преподавателей, финансируют самые амбициозные исследования, помогают талантливым студентам
                     //- tabs
@@ -115,7 +117,7 @@ html(lang="ru")
                     .infoByFond__wrapper.wrapperInfoByFond 
                         .wrapperInfoByFond__col
                             p.sideTitle Стабильность помощи нашим подопечным
-                        .wrapperInfoByFond__col
+                        .wrapperInfoByFond__col.side-container
                             p Мы рассчитываем, что эндаумент создаст для фонда «Подари жизнь» стабильный ресурс с долгосрочной перспективой развития, а также даст возможность избежать потенциальных рисков, связанных с изменениями показателей состояния рынка (например, во время экономического кризиса) 
                     .infoByFond__kakRabotaet 
                         img(src="images/kak-rabotaet.svg" alt="")
@@ -183,7 +185,9 @@ html(lang="ru")
                         li.largeLink.listWrapperTasks__item
                             a(href="/") Проект «Качество жизни»
                         li.wrapperTasks__btn
-                            a(href="projects.html").btnMore.btnMore--white Все проекты
+                            a(href="projects.html").btnMore.btnMore--white 
+                                span Все проекты
+                                img(src="images/plus-white.svg", alt="")
 
         //- section.faces 
         section.faces.faces--index
@@ -285,7 +289,7 @@ html(lang="ru")
                         input(type="text" placeholder="")
                     i.hr 
                     .formFeedback__consent 
-                        p Нажимая  «Помочь», я соглашаетесь с условиями <a href="/">договора-оферты</a> и даю согласие на <a href="/">обработку персональных данных</a>.
+                        p Нажимая  «Помочь», я соглашаюсь с условиями <a href="/">договора-оферты</a> и даю согласие на <a href="/">обработку персональных данных</a>.
                     .formFeedback__submit 
                         button Помочь
 

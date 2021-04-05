@@ -16,8 +16,10 @@ header.header
                 img(src="images/logo-header.svg" alt="Логотип")
             .headerWrapper__nav
                 a(href="").headerWrapper__burger.toggle
+                    img(src="images/burger.svg", alt="")
                     span Меню
                 a(href="index.html#feedback").headerWrapper__help
-                    .puls
+                    //- .puls
+                    img(src="images/help-btn.svg", alt="").puls
                     span Помочь
     include burgerMenu.pug

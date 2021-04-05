@@ -1,7 +1,7 @@
 .advantages {
     position: relative;
     padding-top: 480px;
-    padding-bottom: 245px;
+    padding-bottom: 238px;
 
     &::after {
         content: "";
@@ -22,6 +22,11 @@
         padding-top: 343px;
         padding-bottom: 190px;
     }
+
+    @media(max-width: 1024px) {
+        padding-top: 247px;
+        padding-bottom: 160px;
+    }
 }
 
 .advantages__title {
@@ -37,5 +42,9 @@
 
     @media(max-width: 1366px) {
         margin-bottom: 80px;
+    }
+
+    @media(max-width: 1024px) {
+        margin-bottom: 44px;
     }
 }

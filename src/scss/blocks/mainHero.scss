@@ -3,7 +3,8 @@
     background-color: $color-red;
     padding-bottom: 40px;
     height: 743px;
-    > .container {
+
+    >.container {
         display: flex;
     }
 
@@ -18,8 +19,13 @@
         bottom: -157px;
         left: 0;
     }
+
     @media (max-width: 1366px) {
         height: 545px;
+    }
+
+    @media(max-width: 1024px) {
+        height: 505px;
     }
 }
 
@@ -36,9 +42,17 @@
     font-family: $font-title;
     color: #fff;
     line-height: 1.1;
+
     @media (max-width: 1366px) {
         font-size: 106px;
         padding-bottom: 50px;
+    }
+
+    @media(max-width: 1024px) {
+        font-size: 84px;
+        padding-top: 65px;
+        padding-bottom: 35px;
+        max-width: 500px;
     }
 }
 
@@ -46,20 +60,30 @@
     color: #fff;
     font-size: 20px;
     display: flex;
+
     h4 {
         font-weight: 500;
         margin-right: 30px;
+
         @media (max-width: 1366px) {
             font-size: 18px;
         }
+
     }
+
     p {
         font-weight: 300;
+
         @media (max-width: 1366px) {
             font-size: 18px;
         }
     }
+
     @media (max-width: 1366px) {
         max-width: 505px;
+    }
+
+    @media(max-width: 1024px) {
+        max-width: 450px;
     }
 }
