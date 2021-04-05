@@ -8,11 +8,13 @@
 .sliderAdvantages__picture {
     max-width: 99px;
     margin-bottom: 30px;
+
     img {
         position: relative;
         display: block;
         z-index: 1;
     }
+
     @media (max-width: 1366px) {
         max-width: 80px;
     }
@@ -20,6 +22,7 @@
 
 .sliderAdvantages__text {
     font-size: 24px;
+
     @media (max-width: 1366px) {
         font-size: 20px;
     }
@@ -29,11 +32,17 @@
     position: relative;
     padding-right: 20px;
     padding-bottom: 70px;
+
     &:nth-child(even) {
-        & > * {
+        &>* {
             margin-left: 85px;
+
+            @media(max-width: 1366px) {
+                margin-left: 63px;
+            }
         }
     }
+
     &:nth-child(2n + 1) {
         &::before {
             content: "";
@@ -46,6 +55,10 @@
             right: 0;
         }
     }
+
+    @media(max-width: 1366px) {
+        padding-bottom: 0;
+    }
 }
 
 .slick-arrow {
@@ -53,12 +66,19 @@
     height: 64px;
     z-index: 1;
     top: calc(100% + 83px);
+
+    @media(max-width: 1366px) {
+        width: 52px;
+        height: 40px;
+        top: calc(100% + 53px);
+    }
 }
 
 .slick-next {
     background: no-repeat url("../images/arrow-next.svg") !important;
     background-size: contain;
     right: 0;
+
     &::before {
         content: "";
     }
@@ -68,6 +88,7 @@
     background: no-repeat url("../images/arrow-prev.svg") !important;
     background-size: contain;
     left: 0;
+
     &::before {
         content: "";
     }

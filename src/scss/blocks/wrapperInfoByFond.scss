@@ -7,7 +7,12 @@
         font-size: 40px;
         margin-right: 230px;
         flex: 1 0 340px;
+
+        @media(max-width: 1366px) {
+            margin-right: 60px;
+        }
     }
+
     &:last-child {
         @media (max-width: 1366px) {
             font-size: 30px;
@@ -20,6 +25,7 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
+
     @media (max-width: 1366px) {
         font-size: 30px;
     }

@@ -1,5 +1,9 @@
 .largeLink {
     background-color: $color-red;
+    height: 227px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     a {
         position: relative;
@@ -8,8 +12,10 @@
         font-weight: 500;
         color: #fff;
         line-height: 1.4;
-        padding-top: 50px;
-        padding-bottom: 80px;
+        width: 100%;
+        // padding-top: 50px;
+        // padding-bottom: 80px;
+
         @media (max-width: 1366px) {
             font-size: 48px;
         }
@@ -33,5 +39,9 @@
                 background-repeat: no-repeat;
             }
         }
+    }
+
+    @media(max-width: 1366px) {
+        height: 185px;
     }
 }

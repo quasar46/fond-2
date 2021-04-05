@@ -9,6 +9,7 @@
         font-size: 30px;
         margin-left: auto;
         max-width: 770px;
+        padding-bottom: 50px;
     }
 }
 
@@ -19,6 +20,10 @@
         @media (max-width: 1366px) {
             font-size: 20px;
         }
+    }
+    @media(max-width: 1366px) {
+        max-width: 770px;
+        margin-left: auto;
     }
 }
 
@@ -36,5 +41,13 @@
     }
     &:first-child {
         margin-right: 90px;
+        @media(max-width: 1366px) {
+            margin-right: 0;
+        }
+    }
+    &:last-child {
+        @media(max-width: 1366px) {
+            // margin-left: 100px;
+        }
     }
 }

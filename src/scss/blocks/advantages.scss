@@ -17,6 +17,11 @@
         transform: translateY(-50%);
         z-index: -1;
     }
+
+    @media(max-width: 1366px) {
+        padding-top: 343px;
+        padding-bottom: 190px;
+    }
 }
 
 .advantages__title {
@@ -29,4 +34,8 @@
     font-weight: 400;
     max-width: 335px;
     margin-bottom: 100px;
+
+    @media(max-width: 1366px) {
+        margin-bottom: 80px;
+    }
 }

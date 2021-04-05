@@ -1,11 +1,17 @@
 .wrapperFondsInWorld {
     max-width: 1080px;
     margin-left: auto;
+
+    @media(max-width: 1366px) {
+        max-width: 770px;
+    }
 }
 
 .wrapperFondsInWorld__content {
     margin-bottom: 60px;
+
     @media (max-width: 1366px) {
         font-size: 30px;
+        margin-bottom: 20px;
     }
 }

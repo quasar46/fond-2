@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 $('.sliderAdvantages').slick({
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 2,
     slidesToScroll: 2,
 });

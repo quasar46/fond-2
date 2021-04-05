@@ -4,6 +4,11 @@
     padding-top: 110px;
     padding-bottom: 130px;
     z-index: 2;
+
+    @media(max-width: 1366px) {
+        padding-top: 70px;
+        padding-bottom: 110px;
+    }
 }
 
 .infoByFond__content {
@@ -11,6 +16,11 @@
     padding-bottom: 400px;
     padding-top: 110px;
     padding-bottom: 400px;
+
+    @media(max-width: 1366px) {
+        padding-top: 90px;
+        padding-bottom: 300px;
+    }
 }
 
 .infoByFond--red {
