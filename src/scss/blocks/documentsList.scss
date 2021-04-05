@@ -7,6 +7,15 @@
 
     p {
         font-size: 24px;
+
+        @media(max-width: 1366px) {
+            font-size: 20px;
+        }
+    }
+
+    @media(max-width: 1366px) {
+        padding-top: 40px;
+        padding-bottom: 45px;
     }
 }
 
@@ -56,5 +65,10 @@
                 background-color: rgba(205, 214, 219, 0.2);
             }
         }
+    }
+
+    @media(max-width: 1366px) {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

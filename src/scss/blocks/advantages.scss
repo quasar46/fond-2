@@ -16,6 +16,9 @@
         right: 0;
         transform: translateY(-50%);
         z-index: -1;
+        @media(max-width: 768px) {
+            display: none;
+        }
     }
 
     @media(max-width: 1366px) {
@@ -27,11 +30,18 @@
         padding-top: 247px;
         padding-bottom: 160px;
     }
+    @media(max-width: 768px) {
+        padding-top: 205px;
+        padding-bottom: 138px;
+    }
 }
 
 .advantages__title {
     padding-top: 10px;
     border-top: 2px solid $color-base;
+    @media(max-width: 768px) {
+        padding-top: 4px;
+    }
 }
 
 .advantages__subtitle {

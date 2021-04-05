@@ -10,6 +10,10 @@
             font-size: 28px;
             margin-bottom: 15px;
         }
+
+        @media(max-width: 768px) {
+            font-size: 24px;
+        }
     }
 }
 
@@ -17,7 +21,7 @@
     .listWrapperTasks__item {
         display: flex;
         align-items: center;
-        height: 136px;
+        min-height: 136px;
         border-bottom: 1px solid #fff;
 
         a {
@@ -32,6 +36,10 @@
             @media(max-width: 1024px) {
                 font-size: 40px;
             }
+
+            @media(max-width: 768px) {
+                font-size: 34px;
+            }
         }
 
         &:hover,
@@ -41,12 +49,24 @@
             }
         }
 
+        &:first-child {
+            @media(max-width: 768px) {
+                padding-top: 0;
+            }
+        }
+
         @media(max-width: 1366px) {
-            height: 124px;
+            min-height: 124px;
         }
 
         @media(max-width: 1024px) {
-            height: 106px;
+            min-height: 106px;
+        }
+
+        @media(max-width: 768px) {
+            min-height: auto;
+            padding-bottom: 15px;
+            padding-top: 30px;
         }
     }
 }

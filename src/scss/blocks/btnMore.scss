@@ -11,6 +11,13 @@
 
     span {
         margin-right: 30px;
+
+        @media(max-width: 1366px) {
+            font-size: 20px;
+        }
+        @media(max-width: 768px) {
+            font-size: 16px;
+        }
     }
 
     img {
@@ -22,6 +29,9 @@
 
         @media(max-width: 1024px) {
             width: 67px;
+        }
+        @media(max-width: 768px) {
+            width: 60px;
         }
     }
 

@@ -14,11 +14,20 @@
         padding-top: 55px;
         padding-bottom: 70px;
     }
+
+    @media(max-width: 768px) {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
 }
 
 .infoByFond__title {
     @media(max-width: 1024px) {
         padding-bottom: 45px;
+    }
+
+    @media(max-width: 768px) {
+        padding-bottom: 25px;
     }
 }
 
@@ -36,6 +45,11 @@
     @media(max-width: 1024px) {
         padding-top: 68px;
         padding-bottom: 230px;
+    }
+
+    @media(max-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 180px;
     }
 }
 

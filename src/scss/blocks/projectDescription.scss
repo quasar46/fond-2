@@ -8,18 +8,27 @@
 
 .projectDescription__col {
     &:first-child {
-        flex: 1 0 auto;
-        max-width: 334px;
-        margin-right: 220px;
+        max-width: 367px;
         font-size: 40px;
     }
 
-    &:last-child {
-        flex: 0 1 auto;
-    }
+    // &:last-child {
+    //     flex: 0 1 auto;
+    // }
 }
 
 .projectDescription__text {
     margin-bottom: 50px;
     font-size: 24px;
+
+    @media(max-width: 1366px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.projectDescription__title {
+    @media(max-width: 1366px) {
+        padding-bottom: 55px;
+    }
 }

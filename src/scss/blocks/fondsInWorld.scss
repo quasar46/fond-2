@@ -19,6 +19,10 @@
         bottom: -50px;
         left: 0;
         z-index: 4;
+
+        @media(max-width: 768px) {
+            display: none;
+        }
     }
 
     @media(max-width: 1366px) {
@@ -30,10 +34,15 @@
         padding-top: 70px;
         padding-bottom: 83px;
     }
-}
 
-.fondsInWorld__title {
-    @media(max-width: 1024px) {
-        padding-bottom: 45px;
+    @media(max-width: 768px) {
+        padding-top: 65px;
+        padding-bottom: 70px;
     }
 }
+
+// .fondsInWorld__title {
+//     @media(max-width: 1024px) {
+//         padding-bottom: 45px;
+//     }
+// }

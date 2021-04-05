@@ -9,6 +9,10 @@
 
         p {
             font-size: 24px;
+
+            @media(max-width: 1366px) {
+                font-size: 20px;
+            }
         }
 
         &::before {
@@ -21,6 +25,16 @@
             border-radius: 50%;
             top: 10px;
             left: 0;
+
+            @media(max-width: 1366px) {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        @media(max-width: 1366px) {
+            margin-bottom: 13px;
+            padding-left: 35px;
         }
     }
 }
