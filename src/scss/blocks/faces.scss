@@ -44,3 +44,15 @@
         padding-bottom: 5px;
     }
 }
+
+.faces__topBorder {
+    height: 1px;
+    background-color: #c4c4c4;
+    margin-bottom: 58px;
+    @media (max-width: 1366px) {
+        margin-bottom: 40px;
+    }
+    @media (max-width: 1024px) {
+        margin-bottom: 30px;
+    }
+}

@@ -7,6 +7,9 @@
     @media (max-width: 1366px) {
         padding-bottom: 120px;
     }
+    @media (max-width: 1024px) {
+        padding-bottom: 92px;
+    }
 }
 
 .reportsSumm__title {
@@ -26,6 +29,9 @@
 
     @media (max-width: 1366px) {
         font-size: 110px;
+    }
+    @media (max-width: 1024px) {
+        font-size: 72px;
     }
 }
 

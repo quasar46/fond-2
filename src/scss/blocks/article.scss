@@ -1,12 +1,28 @@
-.article__inner {
-    max-width: 1080px;
-    flex: 1 0 auto;
-    width: 100%;
-}
-
 .article__row {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding-bottom: 30px;
+    @media (max-width: 1024px) {
+        font-size: 32px;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        font-size: 28px;
+        padding-bottom: 23px;
+        .sideTitle {
+            @media (max-width: 768px) {
+                display: block;
+                padding-right: 0;
+            }
+        }
+        .articlePicture__col {
+            &:first-child {
+                order: 1;
+            }
+            &:last-child {
+                order: 0;
+            }
+        }
+    }
 }

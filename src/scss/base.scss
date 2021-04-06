@@ -45,7 +45,9 @@ body {
 }
 
 .side-container {
+	flex: 1 0 auto;
 	max-width: 1080px;
+	width: 100%;
 	margin-left: auto;
 
 	@media (max-width: 1366px) {

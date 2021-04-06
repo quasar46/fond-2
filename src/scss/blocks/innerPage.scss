@@ -2,29 +2,33 @@
     max-width: 1080px;
     margin-bottom: 125px;
 
-    &--new {
-        margin-left: auto;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
-
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         font-size: 30px;
         max-width: 768px;
         margin-bottom: 113px;
     }
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 28px;
         max-width: 575px;
         margin-bottom: 90px;
+    }
+    @media (max-width: 768px) {
+        font-size: 24px;
     }
 
     &--uk {
         margin-bottom: 75px;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             margin-bottom: 53px;
+        }
+    }
+    &--new {
+        margin-left: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        @media (max-width: 768px) {
+            margin-left: 0;
         }
     }
 }

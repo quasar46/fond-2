@@ -8,4 +8,16 @@
     font-weight: 500;
     margin-bottom: 45px;
     margin-left: auto;
+    @media (max-width: 1366px) {
+        font-size: 48px;
+        margin-bottom: 32px;
+    }
+    @media (max-width: 1024px) {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    @media (max-width: 768px) {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
 }
