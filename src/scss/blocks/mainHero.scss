@@ -4,22 +4,30 @@
     padding-bottom: 40px;
     height: 743px;
 
-    >.container {
+    > .container {
         display: flex;
+        @media (max-width: 360px) {
+            height: 100%;
+        }
     }
 
     &::after {
         content: "";
         position: absolute;
         display: block;
-        width: 1920px;
+        width: 100%;
         height: 800px;
         background-image: url("../images/back/hands-top.svg");
         background-repeat: no-repeat;
         bottom: -157px;
         left: 0;
-
-        @media(max-width: 768px) {
+        @media (max-width: 1366px) {
+            bottom: -327px;
+        }
+        @media (max-width: 1024px) {
+            bottom: -452px;
+        }
+        @media (max-width: 768px) {
             display: none;
         }
     }
@@ -28,18 +36,26 @@
         height: 545px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         height: 505px;
     }
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         height: 528px;
+    }
+    @media (max-width: 360px) {
+        height: 412px;
+        padding-bottom: 30px;
     }
 }
 
 .mainHero__wrapper {
     max-width: 807px;
     margin-top: auto;
+    @media (max-width: 360px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .mainHero__title {
@@ -56,17 +72,22 @@
         padding-bottom: 50px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 84px;
         padding-top: 65px;
         padding-bottom: 35px;
         max-width: 500px;
     }
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         font-size: 96px;
         padding-top: 45px;
         padding-bottom: 96px;
+    }
+    @media (max-width: 360px) {
+        font-size: 62px;
+        padding-top: 60px;
+        padding-bottom: 30px;
     }
 }
 
@@ -83,10 +104,13 @@
             font-size: 18px;
         }
 
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             font-size: 16px;
         }
-
+        @media (max-width: 360px) {
+            display: inline;
+            margin-right: 10px;
+        }
     }
 
     p {
@@ -96,8 +120,17 @@
             font-size: 18px;
         }
 
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             font-size: 16px;
+        }
+        @media (max-width: 360px) {
+            display: inline;
+        }
+    }
+    .dots {
+        display: none;
+        @media (max-width: 360px) {
+            display: inline;
         }
     }
 
@@ -105,11 +138,17 @@
         max-width: 505px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         max-width: 450px;
     }
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         max-width: 100%;
+    }
+    @media (max-width: 360px) {
+        display: block;
+        margin-top: auto;
+        line-height: 1.4;
+        font-size: 16px;
     }
 }

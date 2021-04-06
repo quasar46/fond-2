@@ -12,26 +12,32 @@
     span {
         margin-right: 30px;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             font-size: 20px;
         }
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             font-size: 16px;
+        }
+        @media (max-width: 360px) {
+            font-size: 18px;
         }
     }
 
     img {
         width: 90px;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             width: 75px;
         }
 
-        @media(max-width: 1024px) {
+        @media (max-width: 1024px) {
             width: 67px;
         }
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             width: 60px;
+        }
+        @media (max-width: 360px) {
+            width: 63px;
         }
     }
 
@@ -79,7 +85,7 @@
         // margin-top: 68px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 20px;
     }
 }

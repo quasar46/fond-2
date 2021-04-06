@@ -33,11 +33,14 @@ body {
 		padding: 0 100px;
 	}
 
-	@media(max-width: 1024px) {
+	@media (max-width: 1024px) {
 		padding: 0 75px;
 	}
-	@media(max-width: 768px) {
+	@media (max-width: 768px) {
 		padding: 0 55px;
+	}
+	@media (max-width: 360px) {
+		padding: 0 15px;
 	}
 }
 
@@ -45,14 +48,14 @@ body {
 	max-width: 1080px;
 	margin-left: auto;
 
-	@media(max-width: 1366px) {
+	@media (max-width: 1366px) {
 		max-width: 768px;
 	}
 
-	@media(max-width: 1024px) {
+	@media (max-width: 1024px) {
 		max-width: 575px;
 	}
-	@media(max-width: 768px) {
+	@media (max-width: 768px) {
 		max-width: 100%;
 	}
 }

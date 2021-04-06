@@ -4,13 +4,16 @@
     border-top: 2px solid #333333;
     border-bottom: 2px solid #333333;
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         padding-bottom: 120px;
     }
 }
 
 .reportsSumm__title {
     padding-bottom: 35px;
+    @media (max-width: 1366px) {
+        padding-bottom: 20px;
+    }
 }
 
 .reportsSumm__count {
@@ -21,13 +24,13 @@
     color: $color-red;
     margin-bottom: 0;
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         font-size: 110px;
     }
 }
 
 .reportsSumm__text {
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         font-size: 30px;
     }
 }

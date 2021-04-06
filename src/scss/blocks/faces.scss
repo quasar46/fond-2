@@ -3,14 +3,22 @@
         padding-top: 125px;
         padding-bottom: 90px;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             padding-top: 100px;
             padding-bottom: 72px;
         }
 
-        @media(max-width: 1024px) {
+        @media (max-width: 1024px) {
             padding-top: 75px;
             padding-bottom: 45px;
+        }
+        @media (max-width: 768px) {
+            padding-top: 55px;
+            padding-bottom: 130px;
+        }
+        @media (max-width: 360px) {
+            padding-top: 65px;
+            padding-bottom: 61px;
         }
     }
 
@@ -18,18 +26,21 @@
         margin-bottom: 0;
         padding-top: 100px;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             padding-top: 80px;
         }
     }
 }
 
 .faces__title {
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         padding-bottom: 20px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         padding-bottom: 22px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 5px;
     }
 }

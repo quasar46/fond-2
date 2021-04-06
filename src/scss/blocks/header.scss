@@ -1,8 +1,12 @@
 .header {
+    overflow: hidden;
     padding-top: 30px;
     background-color: $color-red;
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         padding-top: 12px;
+    }
+    @media (max-width: 360px) {
+        padding-top: 20px;
     }
 }

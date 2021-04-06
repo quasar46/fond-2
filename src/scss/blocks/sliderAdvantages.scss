@@ -4,8 +4,11 @@
     border-bottom: 1px solid #c4c4c4;
     padding: 50px 0;
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         padding: 40px 0;
+    }
+    @media (max-width: 360px) {
+        padding-bottom: 26px;
     }
 }
 
@@ -23,12 +26,12 @@
         max-width: 80px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         max-width: 75px;
         margin-bottom: 15px;
     }
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         max-width: 60px;
     }
 }
@@ -40,12 +43,15 @@
         font-size: 20px;
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 18px;
     }
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         font-size: 16px;
+    }
+    @media (max-width: 360px) {
+        font-size: 18px;
     }
 }
 
@@ -55,15 +61,18 @@
     padding-bottom: 70px;
 
     &:nth-child(even) {
-        &>* {
+        & > * {
             margin-left: 85px;
 
-            @media(max-width: 1366px) {
+            @media (max-width: 1366px) {
                 margin-left: 63px;
             }
 
-            @media(max-width: 1024px) {
+            @media (max-width: 1024px) {
                 margin-left: 40px;
+            }
+            @media (max-width: 360px) {
+                margin-left: 0;
             }
         }
     }
@@ -78,11 +87,17 @@
             background-color: #c4c4c4;
             top: 0;
             right: 0;
+            @media (max-width: 360px) {
+                display: none;
+            }
         }
     }
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         padding-bottom: 0;
+    }
+    @media (max-width: 360px) {
+        padding-right: 0;
     }
 }
 
@@ -92,15 +107,19 @@
     z-index: 1;
     top: calc(100% + 83px);
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         width: 52px;
         height: 40px;
         top: calc(100% + 53px);
     }
 
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
         width: 36px;
         height: 28px;
+    }
+    @media (max-width: 360px) {
+        width: 45px;
+        height: 35px;
     }
 }
 

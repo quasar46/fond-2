@@ -20,12 +20,15 @@
             font-size: 48px;
         }
 
-        @media(max-width: 1024px) {
+        @media (max-width: 1024px) {
             font-size: 40px;
         }
 
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             font-size: 34px;
+        }
+        @media (max-width: 360px) {
+            font-size: 30px;
         }
     }
 
@@ -45,24 +48,33 @@
                 background-image: url("../images/arrow-white.svg");
                 background-size: cover;
                 background-repeat: no-repeat;
+                @media (max-width: 360px) {
+                    top: 0;
+                    transform: translateY(0);
+                }
             }
         }
     }
 
     &--main {
         height: 230px;
-
-        @media(max-width: 1366px) {
+        a {
+            @media (max-width: 360px) {
+                padding-right: 170px;
+            }
+        }
+        @media (max-width: 1366px) {
             height: 185px;
         }
 
-        @media(max-width: 1024px) {
+        @media (max-width: 1024px) {
             height: 160px;
         }
-        @media(max-width: 768px) {
+        @media (max-width: 768px) {
             height: 134px;
         }
+        @media (max-width: 360px) {
+            height: 206px;
+        }
     }
-
-
 }
