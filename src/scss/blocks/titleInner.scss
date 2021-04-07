@@ -5,17 +5,17 @@
     font-family: $font-title;
     color: $color-base;
     padding-bottom: 50px;
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         font-size: 60px;
         padding-bottom: 33px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         font-size: 46px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         font-size: 40px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         font-size: 36px;
     }
 }

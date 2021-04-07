@@ -10,7 +10,7 @@ $('.sliderAdvantages').slick({
     slidesToScroll: 2,
     responsive: [
         {
-            breakpoint: 361,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1,
             }
@@ -117,9 +117,8 @@ $(document).ready(function () {
 })
 
 $(window).on('load resize', function () {
-    if ($(window).width() < 361) {
+    if ($(window).width() < 768) {
         $('.wrapperMissionFond__slider:not(.slick-initialized)').slick({
-            // dots: true,
             infinite: true,
             speed: 100,
             slidesToShow: 1
@@ -131,7 +130,7 @@ $(window).on('load resize', function () {
 
 
 $(window).on('load resize', function () {
-    if ($(window).width() < 361) {
+    if ($(window).width() < 768) {
         $('.tabs__slider:not(.slick-initialized)').slick({
             infinite: true,
             speed: 100,

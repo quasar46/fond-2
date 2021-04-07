@@ -4,20 +4,20 @@
     border-top: 2px solid #333333;
     border-bottom: 2px solid #333333;
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-bottom: 120px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         padding-bottom: 92px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         padding-bottom: 83px;
     }
 }
 
 .reportsSumm__title {
     padding-bottom: 35px;
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-bottom: 20px;
     }
 }
@@ -30,28 +30,28 @@
     color: $color-red;
     margin-bottom: 0;
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         font-size: 110px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         font-size: 72px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         font-size: 60px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         font-size: 54px;
     }
 }
 
 .reportsSumm__text {
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         font-size: 30px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         font-size: 24px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         font-size: 22px;
     }
 }

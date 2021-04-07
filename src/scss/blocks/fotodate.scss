@@ -1,6 +1,6 @@
 .fotodate {
     padding-top: 77px;
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-top: 60px;
     }
 }
@@ -11,7 +11,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     border-top: 1px solid #c4c4c4;
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-top: 45px;
         padding-bottom: 35px;
     }
@@ -27,17 +27,17 @@
 
     img {
         margin-bottom: 40px;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             margin-bottom: 15px;
         }
     }
 
     p {
         font-size: 24px;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 20px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 18px;
             padding-bottom: 40px;
             margin-bottom: 40px;
@@ -53,18 +53,18 @@
     &.n4 {
         padding-left: 0;
     }
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-left: 50px;
         padding-right: 50px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         padding-right: 0;
         padding-left: 0;
         width: 100%;
     }
     &:last-child {
         p {
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 border-bottom: 0;
                 padding-bottom: 0;
                 margin-bottom: 0;

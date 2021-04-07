@@ -15,16 +15,16 @@
             font-size: 20px;
             color: #808080;
 
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 font-size: 18px;
             }
 
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 font-size: 16px;
                 height: 55px;
                 padding: 0 20px;
             }
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 margin-bottom: 12px;
             }
         }
@@ -59,19 +59,19 @@
                 &:first-child {
                     margin-right: 45px;
 
-                    @media (max-width: 1024px) {
+                    @media (max-width: 1365px) {
                         margin-right: 20px;
                     }
                 }
-                @media (max-width: 360px) {
+                @media (max-width: 767px) {
                     width: 100%;
                 }
             }
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             margin-bottom: 20px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             display: block;
             margin-bottom: 0;
         }
@@ -85,19 +85,19 @@
         }
     }
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         max-width: 770px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         max-width: 575px;
         margin-top: 12px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         max-width: 100%;
         margin-right: 0;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         margin-top: 0;
     }
 }
@@ -112,11 +112,11 @@
             font-size: inherit;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             font-size: 18px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             font-size: 16px;
         }
     }
@@ -140,21 +140,21 @@
             opacity: 0.9;
         }
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 20px;
             padding-right: 95px;
             height: 75px;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             height: 70px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             height: 60px;
             padding-right: 65px;
             font-size: 16px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             height: 63px;
             font-size: 18px;
             padding-right: 90px;

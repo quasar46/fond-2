@@ -14,31 +14,31 @@
         display: block;
     }
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         height: 462px;
         padding-bottom: 55px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         padding-bottom: 40px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         padding-bottom: 20px;
     }
 
     &--inner {
         margin-bottom: 150px;
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             margin-bottom: 75px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             height: 432px; // book
             margin-bottom: 53px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             height: 348px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             height: 222px;
         }
     }
@@ -59,11 +59,11 @@
             background-image: url("../images/back/bookFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 width: 450px;
                 height: 764px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 display: none;
             }
         }
@@ -81,16 +81,16 @@
             background-image: url("../images/back/reportsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 width: 547px;
                 height: 701px;
                 top: 40px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 width: 442px;
                 height: 571px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 display: none;
             }
         }
@@ -108,17 +108,17 @@
             background-image: url("../images/back/documentsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 width: 616px;
                 height: 571px;
                 top: 209px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 width: 445px;
                 height: 408px;
                 top: 128px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 display: none;
             }
         }
@@ -136,15 +136,15 @@
             background-image: url("../images/back/projectsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 width: 546px;
                 height: 697px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 width: 442px;
                 height: 573px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 display: none;
             }
         }
@@ -162,17 +162,17 @@
             background-image: url("../images/back/documentsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 width: 616px;
                 height: 571px;
                 top: 210px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 width: 445px;
                 height: 408px;
                 top: 123px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 display: none;
             }
         }
@@ -189,17 +189,17 @@
             background-image: url("../images/back/ukFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 width: 535px;
                 height: 322px;
                 top: 330px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 width: 446px;
                 height: 249px;
                 top: 327px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 display: none;
             }
         }
@@ -207,18 +207,18 @@
 
     &--new {
         height: 420px;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             height: 308px;
             margin-bottom: 77px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             height: 292px;
             margin-bottom: 50px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             height: 308px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             height: 222px;
         }
     }
@@ -230,25 +230,25 @@
     line-height: 1.1;
     font-weight: 500;
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         font-size: 110px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         font-size: 74px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         font-size: 40px;
         line-height: 1.4;
     }
     &--new {
         font-size: 80px;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 60px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             font-size: 50px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 30px;
         }
     }

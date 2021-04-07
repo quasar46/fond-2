@@ -2,14 +2,14 @@
     .wrapperTasks__btn {
         margin-top: 50px;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             margin-top: 30px;
         }
     }
 }
 
 .listWrapperTasks__item a {
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         &:after {
             display: none;
         }

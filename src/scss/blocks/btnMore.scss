@@ -11,13 +11,13 @@
     span {
         margin-right: 30px;
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 20px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             font-size: 16px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 18px;
             margin-right: 18px;
         }
@@ -26,17 +26,17 @@
     picture {
         width: 90px;
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             width: 75px;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             width: 67px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             width: 60px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             width: 63px;
         }
     }
@@ -65,12 +65,12 @@
         }
     }
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         font-size: 20px;
         padding-right: 100px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         font-size: 20px;
     }
 }

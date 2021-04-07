@@ -16,15 +16,15 @@
         // padding-top: 50px;
         // padding-bottom: 80px;
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 48px;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             font-size: 40px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             font-size: 34px;
             &::after {
                 content: "";
@@ -38,13 +38,13 @@
                 background-image: url("../images/arrow-white.svg");
                 background-size: cover;
                 background-repeat: no-repeat;
-                @media (max-width: 360px) {
+                @media (max-width: 767px) {
                     top: 0;
                     transform: translateY(0);
                 }
             }
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 30px;
         }
     }
@@ -65,7 +65,7 @@
                 background-image: url("../images/arrow-white.svg");
                 background-size: cover;
                 background-repeat: no-repeat;
-                @media (max-width: 360px) {
+                @media (max-width: 767px) {
                     top: 0;
                     transform: translateY(0);
                 }
@@ -76,21 +76,21 @@
     &--main {
         height: 230px;
         a {
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 padding-right: 170px;
             }
         }
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             height: 185px;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             height: 160px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             height: 134px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             height: 206px;
         }
     }

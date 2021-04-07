@@ -20,18 +20,18 @@
             padding-top: 30px;
             padding-bottom: 20px;
 
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 font-size: 48px;
                 height: 125px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 font-size: 40px;
                 height: 95px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 height: 81px;
             }
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 font-size: 30px;
                 text-align: left;
                 height: auto;
@@ -59,15 +59,15 @@
                 right: 0;
                 top: 50%;
                 transform: translateY(-50%);
-                @media (max-width: 1366px) {
+                @media (max-width: 1919px) {
                     width: 45px;
                     height: 45px;
                 }
-                @media (max-width: 1024px) {
+                @media (max-width: 1365px) {
                     width: 26px;
                     height: 26px;
                 }
-                @media (max-width: 360px) {
+                @media (max-width: 767px) {
                     width: 40px;
                     height: 40px;
                 }
@@ -87,23 +87,23 @@
                 right: 0;
                 top: 50%;
                 transform: translateY(-50%);
-                @media (max-width: 1366px) {
+                @media (max-width: 1919px) {
                     width: 35px;
                 }
-                @media (max-width: 1024px) {
+                @media (max-width: 1365px) {
                     width: 26px;
                 }
-                @media (max-width: 768px) {
+                @media (max-width: 1023px) {
                     width: 30px;
                 }
-                @media (max-width: 360px) {
+                @media (max-width: 767px) {
                     width: 40px;
                 }
             }
         }
 
         &::after {
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 content: "";
                 position: absolute;
                 display: block;
@@ -116,7 +116,7 @@
                 top: 50%;
                 transform: translateY(-50%);
             }
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 width: 40px;
                 height: 40px;
             }
@@ -133,10 +133,10 @@
     // padding-bottom: 50px;
     padding-bottom: 10px;
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-top: 50px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         flex-direction: column;
         padding-top: 30px;
     }
@@ -152,16 +152,16 @@
     border: 1px solid #c4c4c4;
     padding: 0 37px;
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         flex: 0 1 367px;
         padding: 0 26px;
         height: 63px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         height: 47px;
         margin-right: 22px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         flex: 56px;
         max-width: 328px;
         margin-bottom: 30px;
@@ -174,16 +174,16 @@
         font-weight: 500;
         line-height: 1;
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 48px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             font-size: 32px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             font-size: 28px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 30px;
         }
     }
@@ -191,16 +191,16 @@
     p {
         font-size: 24px;
 
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 20px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             font-size: 18px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             font-size: 16px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 18px;
         }
     }
@@ -213,7 +213,7 @@
     ul {
         li {
             margin-bottom: 40px;
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 margin-bottom: 30px;
             }
         }

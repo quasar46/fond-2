@@ -2,7 +2,7 @@
     display: flex;
     margin-bottom: 20px;
     justify-content: space-between;
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         background-color: $color-red;
         height: 100px;
     }
@@ -15,7 +15,7 @@
 
     span {
         order: 1;
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             display: none;
         }
     }
@@ -26,7 +26,7 @@
         margin-right: 20px;
         background-size: contain;
         background-repeat: no-repeat;
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             svg {
                 path {
                     stroke: white !important;
@@ -39,19 +39,19 @@
                 }
             }
         }
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             width: 63px;
             height: 63px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             width: 55px;
             height: 55px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             width: 50px;
             height: 50px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             width: 60px;
             height: 60px;
             margin-right: 0;
@@ -61,7 +61,7 @@
     &--search {
         picture {
             background-image: url("../images/icons/search.svg");
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 background-image: url("../images/icons/search-mobile.svg");
             }
         }
@@ -69,11 +69,11 @@
     &--burger {
         picture {
             background-image: url("../images/icons/cross-menu.svg");
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 background-image: url("../images/icons/cross-menu-mobile.svg");
             }
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             margin-left: auto;
             margin-right: 15px;
         }
@@ -82,7 +82,7 @@
         picture {
             background-image: url("../images/icons/help.svg");
 
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 background-image: url("../images/icons/help-mobile.svg");
             }
         }

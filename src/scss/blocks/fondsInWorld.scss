@@ -19,36 +19,30 @@
         bottom: -50px;
         left: 0;
         z-index: 4;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             width: 686px;
             height: 476px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             display: none;
         }
     }
 
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-top: 90px;
         padding-bottom: 108px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         padding-top: 80px;
         padding-bottom: 83px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         padding-top: 65px;
         padding-bottom: 70px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         display: none;
     }
 }
-
-// .fondsInWorld__title {
-//     @media(max-width: 1024px) {
-//         padding-bottom: 45px;
-//     }
-// }

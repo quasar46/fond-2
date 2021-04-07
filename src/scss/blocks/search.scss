@@ -18,21 +18,23 @@
 
     .search__input {
         width: 100%;
+        display: flex;
+        align-items: center;
 
         input {
             width: inherit;
             border: none;
             font-size: 36px;
-            @media (max-width: 1366px) {
+            @media (max-width: 1919px) {
                 font-size: 30px;
             }
-            @media (max-width: 1024px) {
+            @media (max-width: 1365px) {
                 font-size: 26px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 1023px) {
                 font-size: 24px;
             }
-            @media (max-width: 360px) {
+            @media (max-width: 767px) {
                 font-size: 22px;
             }
         }
@@ -63,5 +65,8 @@
 
     &.active {
         left: 0;
+    }
+    @media (max-width: 767px) {
+        height: 100px;
     }
 }

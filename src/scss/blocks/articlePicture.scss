@@ -1,9 +1,9 @@
 .articlePicture {
     padding-top: 60px;
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         padding-top: 62px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         padding-top: 48px;
         .sideTitle {
             display: none !important;
@@ -16,15 +16,15 @@
 
     &--big {
         font-size: 40px;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             max-width: 300px;
             width: 100%;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             max-width: 100%;
             text-align: right;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             text-align: left;
         }
     }
@@ -36,27 +36,27 @@
         margin-right: 44px;
         padding-right: 70px;
         padding-top: 20px;
-        @media (max-width: 1366px) {
+        @media (max-width: 1919px) {
             font-size: 20px;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1365px) {
             font-size: 18px;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             font-size: 16px;
             padding-top: 10px;
         }
-        @media (max-width: 360px) {
+        @media (max-width: 767px) {
             font-size: 18px;
             border-top: 0;
         }
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         margin-right: 0;
         padding-right: 40px;
         margin-bottom: 20px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         margin-bottom: 10px;
     }
 }
@@ -64,17 +64,17 @@
 .articlePicture__text {
     font-size: 24px;
     margin-bottom: 40px;
-    @media (max-width: 1366px) {
+    @media (max-width: 1919px) {
         font-size: 20px;
         margin-bottom: 20px;
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1365px) {
         font-size: 18px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         font-size: 16px;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 767px) {
         font-size: 18px;
     }
 }
