@@ -1,25 +1,25 @@
 
 .burgerMenu__panel
 .burgerMenu 
-    .container 
-        .burgerMenu__link.burgerMenuLink
-            a(href="/").burgerMenuLink__item#search
+    .burgerMenu__wrapper
+        .burgerMenu__link.burgerMenuLink.container
+            a(href="/").burgerMenuLink__item.burgerMenuLink__item--search#search
                 span Поиск
-                img(src="images/icons/search.svg" alt="")
-            a(href="/").burgerMenuLink__item.toggle
+                picture
+            a(href="/").burgerMenuLink__item.burgerMenuLink__item--burger.toggle
                 span Меню
-                img(src="images/icons/burger-menu.svg" alt="")
-            a(href="/").burgerMenuLink__item
+                picture
+            a(href="/").burgerMenuLink__item.burgerMenuLink__item--heart
                 span Помочь
-                img(src="images/icons/help.svg" alt="")
-        nav.burgerMenu__nav.burgerMenuNav 
+                picture
+        nav.burgerMenu__nav.burgerMenuNav.container 
             a(href="projects.html") Проекты 
             a(href="reports.html") Отчеты
             //- a(href="uk.html") Управляющая компания
             a(href="book.html") Книга дарителей
             a(href="new.html") Новости
             a(href="documents.html") Учредительные документы
-        ul.burgerMenu__social.burgerMenuSocial 
+        ul.burgerMenu__social.burgerMenuSocial.container
             li
                 a(href="/") 
                     img(src="images/icons/social/youtube.svg" alt="")

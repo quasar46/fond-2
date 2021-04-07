@@ -37,6 +37,10 @@
                 width: 12px;
                 height: 12px;
             }
+            @media (max-width: 360px) {
+                width: 10px;
+                height: 10px;
+            }
         }
 
         @media (max-width: 1366px) {

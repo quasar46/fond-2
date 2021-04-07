@@ -37,6 +37,12 @@
         @media (max-width: 1366px) {
             font-size: 20px;
         }
+        @media (max-width: 360px) {
+            font-size: 18px;
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #c4c4c4;
+        }
     }
 
     &.n3 {
@@ -47,16 +53,22 @@
     &.n4 {
         padding-left: 0;
     }
-    // &--mode {
-    //     width: calc(100% / 3);
-    //     padding-right: 22px;
-    //     padding-left: 22px;
-    //     img {
-    //         height: 465px;
-    //     }
-    // }
     @media (max-width: 1366px) {
         padding-left: 50px;
         padding-right: 50px;
+    }
+    @media (max-width: 360px) {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+    &:last-child {
+        p {
+            @media (max-width: 360px) {
+                border-bottom: 0;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
     }
 }

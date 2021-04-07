@@ -6,7 +6,7 @@ html(lang="ru")
         include modules/header.pug
 
         //- section.hero
-        section.hero.hero--inner.hero--project
+        section.hero.hero--inner.hero--projects
             .container 
                 .hero__breadcrumbs.breadcrumbs
                     a(href="index.html") Главная
@@ -43,65 +43,65 @@ html(lang="ru")
                 h2.faces__title.titleInner Проектная деятельность
                 //- tabs
                 .tabs.tabs__projects
-                    ul.tabs__head
+                    ul.tabs__head.tabs__head--projects
                         li
                             a(href="#projects") Проекты
                         li
                             a(href="#news") Новости
 
-                    ul.tabs__content.tabs__content--projects#projects
-                        li.tabs__item.tabs__item--mode.item__second
-                            h2.tabs__title Пансионат Измалково
+                    ul.tabs__content.tabs__content--projects.tabs__list--news#projects
+                        li.tabs__item.tabs__item--mode.item__projects.item__second
+                            h2.tabs__title.maxHeight Пансионат Измалково
                             .tabs__pic.tabs__pic--mode.tabs__pic--projects
                                 img(src="images/faces/1.jpg" alt="")
-                        li.tabs__item.tabs__item--mode.item__second
-                            h2.tabs__title Незарегистрированные лекарства
+                        li.tabs__item.tabs__item--mode.item__projects.item__second
+                            h2.tabs__title.maxHeight Незарегистрированные лекарства
                             .tabs__pic.tabs__pic--mode.tabs__pic--projects
                                 img(src="images/faces/1.jpg" alt="")
-                        li.tabs__item.tabs__item--mode.item__second
-                            h2.tabs__title Научный
+                        li.tabs__item.tabs__item--mode.item__projects.item__second
+                            h2.tabs__title.maxHeight Научный
                             .tabs__pic.tabs__pic--mode.tabs__pic--projects
                                 img(src="images/faces/1.jpg" alt="")
-                        li.tabs__item.tabs__item--mode.item__second
-                            h2.tabs__title Качество жизни
+                        li.tabs__item.tabs__item--mode.item__projects.item__second
+                            h2.tabs__title.maxHeight Качество жизни
                             .tabs__pic.tabs__pic--mode.tabs__pic--projects
                                 img(src="images/faces/1.jpg" alt="")
 
-                    ul.tabs__content.tabs__content--projects#news
-                        li.tabs__item.item__first
+                    ul.tabs__content.tabs__content--news.tabs__list--news#news
+                        li.tabs__item.tabs__news.item__news.item__first
                             .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.tabs__title Акции и события фонда
+                            h2.tabs__title.maxHeight2 Акции и события фонда
                             p Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
                             p.tabs__date 12.03.2021
-                        li.tabs__item.item__first
+                        li.tabs__item.tabs__news.item__news.item__first
                             .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.tabs__title Акции и события фонда
+                            h2.tabs__title.maxHeight2 Акции и события фонда
                             p В диалоге с жизнью важен не ее вопрос, а наш ответ.
                             p.tabs__date 12.03.2021
-                        li.tabs__item.item__first
+                        li.tabs__item.tabs__news.item__news.item__first
                             .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.tabs__title Заголовок новости
+                            h2.tabs__title.maxHeight2 Заголовок новости
                             p Как бы мы ни понимали добро, жизнь наша есть не что иное, как стремление к добру.
                             p.tabs__date 12.03.2021
-                        li.tabs__item.item__first
+                        li.tabs__item.tabs__news.item__news.item__first
                             .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.tabs__title Акции и события фонда
+                            h2.tabs__title.maxHeight2 Акции и события фонда
                             p Определить свою цель – найти Полярную звезду. Она станет для вас ориентиром, если вы собьетесь с пути.
                             p.tabs__date 12.03.2021
-                        li.tabs__item.item__first
+                        li.tabs__item.tabs__news.item__news.item__first
                             .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.tabs__title Акции и события фонда
+                            h2.tabs__title.maxHeight2 Акции и события фонда
                             p В диалоге с жизнью важен не ее вопрос, а наш ответ.
                             p.tabs__date 12.03.2021
-                        li.tabs__item.item__first
+                        li.tabs__item.tabs__news.item__news.item__first
                             .tabs__pic
                                 img(src="images/faces/1.jpg" alt="")
-                            h2.tabs__title Заголовок новости
+                            h2.tabs__title.maxHeight2 Заголовок новости
                             p Как бы мы ни понимали добро, жизнь наша есть не что иное, как стремление к добру.
                             p.tabs__date 12.03.2021
 

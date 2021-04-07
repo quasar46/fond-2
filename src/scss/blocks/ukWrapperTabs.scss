@@ -3,9 +3,9 @@
         position: relative;
         // padding-bottom: 30px;
         // margin-bottom: 20px;
-        border-bottom: 1px solid #C4C4C4;
+        border-bottom: 1px solid #c4c4c4;
 
-        &+div {
+        & + div {
             display: none;
         }
 
@@ -16,12 +16,26 @@
             border: none;
             font-size: 60px;
             font-weight: 500;
-            line-height: 1.4;
+            line-height: 1.1;
             padding-top: 30px;
             padding-bottom: 20px;
 
-            @media(max-width: 1366px) {
+            @media (max-width: 1366px) {
                 font-size: 48px;
+                height: 125px;
+            }
+            @media (max-width: 1024px) {
+                font-size: 40px;
+                height: 95px;
+            }
+            @media (max-width: 768px) {
+                height: 81px;
+            }
+            @media (max-width: 360px) {
+                font-size: 30px;
+                text-align: left;
+                height: auto;
+                padding-right: 65px;
             }
         }
 
@@ -30,8 +44,6 @@
             button {
                 color: $color-red;
             }
-
-
         }
 
         &:hover {
@@ -47,6 +59,18 @@
                 right: 0;
                 top: 50%;
                 transform: translateY(-50%);
+                @media (max-width: 1366px) {
+                    width: 45px;
+                    height: 45px;
+                }
+                @media (max-width: 1024px) {
+                    width: 26px;
+                    height: 26px;
+                }
+                @media (max-width: 360px) {
+                    width: 40px;
+                    height: 40px;
+                }
             }
         }
 
@@ -63,10 +87,41 @@
                 right: 0;
                 top: 50%;
                 transform: translateY(-50%);
+                @media (max-width: 1366px) {
+                    width: 35px;
+                }
+                @media (max-width: 1024px) {
+                    width: 26px;
+                }
+                @media (max-width: 768px) {
+                    width: 30px;
+                }
+                @media (max-width: 360px) {
+                    width: 40px;
+                }
+            }
+        }
+
+        &::after {
+            @media (max-width: 1024px) {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 26px;
+                height: 26px;
+                background-image: url("../images/plus-2.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            @media (max-width: 360px) {
+                width: 40px;
+                height: 40px;
             }
         }
     }
-
 }
 
 .ukWrapperTabs__content {
@@ -78,8 +133,12 @@
     // padding-bottom: 50px;
     padding-bottom: 10px;
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         padding-top: 50px;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding-top: 30px;
     }
 }
 
@@ -90,13 +149,22 @@
     flex: 0 1 516px;
     width: 100%;
     height: 89px;
-    border: 1px solid #C4C4C4;
+    border: 1px solid #c4c4c4;
     padding: 0 37px;
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         flex: 0 1 367px;
         padding: 0 26px;
         height: 63px;
+    }
+    @media (max-width: 1024px) {
+        height: 47px;
+        margin-right: 22px;
+    }
+    @media (max-width: 768px) {
+        flex: 56px;
+        max-width: 328px;
+        margin-bottom: 30px;
     }
 }
 
@@ -106,16 +174,34 @@
         font-weight: 500;
         line-height: 1;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             font-size: 48px;
+        }
+        @media (max-width: 1024px) {
+            font-size: 32px;
+        }
+        @media (max-width: 768px) {
+            font-size: 28px;
+        }
+        @media (max-width: 360px) {
+            font-size: 30px;
         }
     }
 
     p {
         font-size: 24px;
 
-        @media(max-width: 1366px) {
+        @media (max-width: 1366px) {
             font-size: 20px;
+        }
+        @media (max-width: 1024px) {
+            font-size: 18px;
+        }
+        @media (max-width: 768px) {
+            font-size: 16px;
+        }
+        @media (max-width: 360px) {
+            font-size: 18px;
         }
     }
 
@@ -127,6 +213,9 @@
     ul {
         li {
             margin-bottom: 40px;
+            @media (max-width: 1024px) {
+                margin-bottom: 30px;
+            }
         }
     }
 }

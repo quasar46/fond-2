@@ -2,7 +2,7 @@
     background-color: $color-red;
     color: #fff;
     padding-top: 82px;
-    padding-bottom: 125px;
+    padding-bottom: 105px;
 
     @media (max-width: 1366px) {
         padding-top: 60px;
@@ -12,6 +12,9 @@
     @media (max-width: 1024px) {
         padding-top: 45px;
         padding-bottom: 70px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 58px;
     }
     @media (max-width: 360px) {
         padding-top: 37px;

@@ -1,5 +1,5 @@
 .projectDescription {
-    border-top: 2px solid #333333;
+    // border-top: 2px solid #333333;
 }
 
 .projectDescription__wrapper {
@@ -32,6 +32,6 @@
 
 .projectDescription__title {
     @media (max-width: 1366px) {
-        padding-bottom: 55px;
+        padding-top: 10px;
     }
 }

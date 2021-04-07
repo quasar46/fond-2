@@ -11,7 +11,7 @@
         padding-top: 16px;
         padding-bottom: 15px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #A0A0A0;
+        border-bottom: 1px solid #a0a0a0;
 
         &:hover {
             color: $color-red;
@@ -28,6 +28,20 @@
                 top: 50%;
                 transform: translateY(-50%);
             }
+        }
+        @media (max-width: 1366px) {
+            font-size: 48px;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 40px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 34px;
+        }
+        @media (max-width: 360px) {
+            font-size: 30px;
         }
     }
 }

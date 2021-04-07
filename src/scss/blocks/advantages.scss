@@ -1,7 +1,7 @@
 .advantages {
     position: relative;
     padding-top: 480px;
-    padding-bottom: 238px;
+    padding-bottom: 260px;
 
     &::after {
         content: "";
@@ -24,11 +24,11 @@
     @media (max-width: 1366px) {
         padding-top: 343px;
         // padding-bottom: 190px;
-        padding-bottom: 205px;
+        padding-bottom: 195px;
     }
 
     @media (max-width: 1024px) {
-        padding-top: 247px;
+        padding-top: 256px;
         padding-bottom: 160px;
     }
     @media (max-width: 768px) {
@@ -57,7 +57,7 @@
     margin-bottom: 100px;
 
     @media (max-width: 1366px) {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
 
     @media (max-width: 1024px) {

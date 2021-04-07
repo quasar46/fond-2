@@ -17,9 +17,17 @@
             .col {
                 &:first-child {
                     order: 1;
+                    @media (max-width: 360px) {
+                        order: 0;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid #c4c4c4;
+                    }
                 }
                 &:last-child {
                     order: 0;
+                    @media (max-width: 360px) {
+                        order: 1;
+                    }
                 }
             }
         }
@@ -44,5 +52,8 @@
     @media (max-width: 768px) {
         font-size: 16px;
         text-align: right;
+    }
+    @media (max-width: 360px) {
+        text-align: left;
     }
 }

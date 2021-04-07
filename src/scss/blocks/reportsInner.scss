@@ -22,17 +22,43 @@
             display: block;
             background-image: url("../images/icons/download.svg");
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             right: 0;
             top: 50%;
             transform: translateY(-50%);
             width: 60px;
             height: 62px;
+            @media (max-width: 768px) {
+                width: 30px;
+                height: 30px;
+            }
         }
     }
 
-    @media(max-width: 1366px) {
+    @media (max-width: 1366px) {
         font-size: 48px;
+    }
+    @media (max-width: 768px) {
+        font-size: 34px;
+    }
+    @media (max-width: 360px) {
+        font-size: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 105px;
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            background-image: url("../images/icons/download.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+        }
     }
 }
 

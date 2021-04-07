@@ -21,6 +21,9 @@
     @media (max-width: 768px) {
         padding-bottom: 40px;
     }
+    @media (max-width: 360px) {
+        padding-bottom: 20px;
+    }
 
     &--inner {
         margin-bottom: 150px;
@@ -31,6 +34,12 @@
         @media (max-width: 1024px) {
             height: 432px; // book
             margin-bottom: 53px;
+        }
+        @media (max-width: 768px) {
+            height: 348px;
+        }
+        @media (max-width: 360px) {
+            height: 222px;
         }
     }
 
@@ -54,6 +63,9 @@
                 width: 450px;
                 height: 764px;
             }
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
     }
 
@@ -69,6 +81,18 @@
             background-image: url("../images/back/reportsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
+            @media (max-width: 1366px) {
+                width: 547px;
+                height: 701px;
+                top: 40px;
+            }
+            @media (max-width: 1024px) {
+                width: 442px;
+                height: 571px;
+            }
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
     }
 
@@ -84,6 +108,45 @@
             background-image: url("../images/back/documentsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
+            @media (max-width: 1366px) {
+                width: 616px;
+                height: 571px;
+                top: 209px;
+            }
+            @media (max-width: 1024px) {
+                width: 445px;
+                height: 408px;
+                top: 128px;
+            }
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+
+    &--projects {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 764px;
+            height: 990px;
+            right: 0;
+            top: 50px;
+            background-image: url("../images/back/projectsFlower.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            @media (max-width: 1366px) {
+                width: 546px;
+                height: 697px;
+            }
+            @media (max-width: 1024px) {
+                width: 442px;
+                height: 573px;
+            }
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
     }
 
@@ -99,6 +162,46 @@
             background-image: url("../images/back/documentsFlower.svg");
             background-repeat: no-repeat;
             background-size: cover;
+            @media (max-width: 1366px) {
+                width: 616px;
+                height: 571px;
+                top: 210px;
+            }
+            @media (max-width: 1024px) {
+                width: 445px;
+                height: 408px;
+                top: 123px;
+            }
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+    &--uk {
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 786px;
+            height: 443px;
+            right: 0;
+            top: 426px;
+            background-image: url("../images/back/ukFlower.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            @media (max-width: 1366px) {
+                width: 535px;
+                height: 322px;
+                top: 330px;
+            }
+            @media (max-width: 1024px) {
+                width: 446px;
+                height: 249px;
+                top: 327px;
+            }
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
     }
 
@@ -115,6 +218,9 @@
         @media (max-width: 768px) {
             height: 308px;
         }
+        @media (max-width: 360px) {
+            height: 222px;
+        }
     }
 }
 
@@ -130,6 +236,10 @@
     @media (max-width: 1024px) {
         font-size: 74px;
     }
+    @media (max-width: 360px) {
+        font-size: 40px;
+        line-height: 1.4;
+    }
     &--new {
         font-size: 80px;
         @media (max-width: 1366px) {
@@ -137,6 +247,9 @@
         }
         @media (max-width: 1024px) {
             font-size: 50px;
+        }
+        @media (max-width: 360px) {
+            font-size: 30px;
         }
     }
 }

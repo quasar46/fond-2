@@ -26,6 +26,23 @@
 
         @media (max-width: 768px) {
             font-size: 34px;
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                width: 41px;
+                height: 41px;
+                background-image: url("../images/arrow-white.svg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                @media (max-width: 360px) {
+                    top: 0;
+                    transform: translateY(0);
+                }
+            }
         }
         @media (max-width: 360px) {
             font-size: 30px;

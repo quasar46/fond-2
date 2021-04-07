@@ -5,6 +5,7 @@ $(document).ready(function () {
 $('.sliderAdvantages').slick({
     infinite: true,
     // autoplay: true,
+    speed: 100,
     slidesToShow: 2,
     slidesToScroll: 2,
     responsive: [
@@ -23,47 +24,31 @@ $('.toggle').click(function (event) {
     $('.burgerMenu__panel').toggleClass('active');
 });
 
-// выравнивнаие элементов по высоте
 $(document).ready(function () {
     let maxHeight = 0;
-    $(".itemWrapperFace__subtitle").each(function () {
+    $(".maxHeight").each(function () {
         if ($(this).height() > maxHeight) {
             maxHeight = $(this).height();
         }
     });
-    $(".itemWrapperFace__subtitle").height(maxHeight);
-}).trigger('resize');
+    $(".maxHeight").height(maxHeight);
+});
 
-// выравнивнаие элементов по высоте
-$(document).ready(function () {
-    let maxHeight = 0;
-    $(".tabs__text").each(function () {
-        if ($(this).height() > maxHeight) {
-            maxHeight = $(this).height();
-        }
-    });
-    $(".tabs__text").height(maxHeight);
-}).trigger('resize');
 
-$(document).ready(function () {
+function checkHeight() {
     let maxHeight = 0;
-    $(".tabs__title").each(function () {
+    $(".maxHeight2").each(function () {
         if ($(this).height() > maxHeight) {
             maxHeight = $(this).height();
         }
     });
-    $(".tabs__title").height(maxHeight);
-}).trigger('resize');
+    $(".maxHeight2").height(maxHeight);
+}
 
-$(document).ready(function () {
-    let maxHeight = 0;
-    $(".tabs__subtitle").each(function () {
-        if ($(this).height() > maxHeight) {
-            maxHeight = $(this).height();
-        }
-    });
-    $(".tabs__subtitle").height(maxHeight);
-}).trigger('resize');
+$(function () {
+    $('.tabs__head--projects a[href="#news"]').on('click', checkHeight);
+})
+
 
 $('.btnMore').click(function () {
     $(this).toggleClass('active').siblings('.show-content').toggleClass('show');
@@ -131,38 +116,6 @@ $(document).ready(function () {
     })
 })
 
-// $('.wrapperMissionFond__slider').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 3,
-//     mobileFirst: true,
-//     responsive: [
-//         {
-//           breakpoint: 1024,
-//           settings: {
-//             slidesToShow: 3,
-//             slidesToScroll: 3,
-//             infinite: true,
-//             dots: true
-//           }
-//         },
-//         {
-//           breakpoint: 600,
-//           settings: {
-//             slidesToShow: 2,
-//             slidesToScroll: 2
-//           }
-//         },
-//         {
-//           breakpoint: 480,
-//           settings: {
-//             slidesToShow: 1,
-//             slidesToScroll: 1
-//           }
-//         }
-//       ]
-// });
-
 $(window).on('load resize', function () {
     if ($(window).width() < 361) {
         $('.wrapperMissionFond__slider:not(.slick-initialized)').slick({
@@ -180,7 +133,6 @@ $(window).on('load resize', function () {
 $(window).on('load resize', function () {
     if ($(window).width() < 361) {
         $('.tabs__slider:not(.slick-initialized)').slick({
-            // dots: true,
             infinite: true,
             speed: 100,
             slidesToShow: 1,

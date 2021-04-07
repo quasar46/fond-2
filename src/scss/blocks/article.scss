@@ -26,3 +26,15 @@
         }
     }
 }
+
+.article__center {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.article__picture {
+    @media (max-width: 360px) {
+        border-top: 1px solid #c4c4c4;
+        padding-top: 30px;
+    }
+}
