@@ -8,13 +8,16 @@
 }
 
 .headerWrapper__logo {
-    flex: 0 1 285px;
+    display: flex;
+    align-items: center;
+    max-width: 441px;
+    width: 100%;
 
     @media (max-width: 1919px) {
-        flex: 0 1 250px;
+        max-width: 350px;
     }
     @media (max-width: 767px) {
-        flex: 0 1 203px;
+        max-width: 240px;
         margin-top: 8px;
     }
 }
@@ -46,6 +49,9 @@
             @media (max-width: 767px) {
                 width: 60px;
             }
+        }
+        &:hover {
+            opacity: 0.9;
         }
     }
 

@@ -60,8 +60,33 @@
         }
 
         @media (max-width: 1365px) {
-            // font-size: 36px;
             font-size: 40px;
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                width: 41px;
+                height: 41px;
+                background-image: url("../images/arrow-diag-red.svg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                @media (max-width: 1365px) {
+                    width: 30px;
+                    height: 30px;
+                }
+                @media (max-width: 1023px) {
+                    width: 25px;
+                    height: 25px;
+                }
+                @media (max-width: 767px) {
+                    // background-image: url("../images/arrow-diag-grey.svg");
+                    width: 30px;
+                    height: 30px;
+                }
+            }
         }
 
         @media (max-width: 1023px) {

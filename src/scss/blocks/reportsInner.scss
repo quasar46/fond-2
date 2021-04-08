@@ -38,6 +38,26 @@
     @media (max-width: 1919px) {
         font-size: 48px;
     }
+    @media (max-width: 1365px) {
+        font-size: 40px;
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            background-image: url("../images/icons/download.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 35px;
+            height: 35px;
+            @media (max-width: 1023px) {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
     @media (max-width: 1023px) {
         font-size: 34px;
     }

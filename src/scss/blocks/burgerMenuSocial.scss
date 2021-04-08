@@ -1,12 +1,17 @@
 .burgerMenuSocial {
     display: flex;
     margin-top: auto;
-
+    // height: 200px;
+    height: auto;
+    .mCSB_container {
+        display: flex;
+    }
     li {
         width: 70px;
         height: 70px;
         display: block;
         margin-right: 25px;
+        flex-shrink: 0;
         @media (max-width: 1919px) {
             width: 63px;
             height: 63px;
@@ -26,7 +31,6 @@
         }
     }
     @media (max-width: 767px) {
-        width: 550px;
-        overflow-x: scroll;
+        // width: 550px;
     }
 }

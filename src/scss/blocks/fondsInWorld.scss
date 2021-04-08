@@ -6,7 +6,9 @@
     .container {
         z-index: 5;
     }
-
+    .tabs__head {
+        display: flex;
+    }
     &::after {
         content: "";
         position: absolute;
@@ -21,7 +23,11 @@
         z-index: 4;
         @media (max-width: 1919px) {
             width: 686px;
-            height: 476px;
+            height: 506px;
+        }
+        @media (max-width: 1365px) {
+            width: 575px;
+            height: 420px;
         }
         @media (max-width: 1023px) {
             display: none;

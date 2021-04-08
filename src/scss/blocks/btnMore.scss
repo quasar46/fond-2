@@ -60,7 +60,7 @@
     }
 
     &:hover {
-        &::after {
+        picture {
             opacity: 0.9;
         }
     }

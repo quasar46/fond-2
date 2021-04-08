@@ -56,7 +56,7 @@ $('.btnMore').click(function () {
 
 // добавление линии под строкой блоков
 $(window).resize(function () {
-    var breakpoints = [768, 360];
+    var breakpoints = [1023, 767];
     var currentWidth = $(window).width();
     $('.tabs__line').remove();
     if (breakpoints[0] < currentWidth) {
@@ -75,6 +75,7 @@ $(window).resize(function () {
 $(window).resize(function () {
     var breakpoints = [1366, 768, 320];
     var currentWidth = $(document).width();
+
     $('.tabs__line--mode').remove();
     if (breakpoints[0] <= currentWidth) {
         $('.item__second:nth-child(even)').after($('<li class="tabs__line--mode"></li>'));
@@ -83,7 +84,6 @@ $(window).resize(function () {
         $('.item__second:nth-child(even)').addClass('current');
     } else console.log('1');
 }).trigger('resize');
-
 
 $(document).ready(function () {
     $('.ukWrapperTabs__button .btn').click(function () {
@@ -128,7 +128,6 @@ $(window).on('load resize', function () {
     }
 });
 
-
 $(window).on('load resize', function () {
     if ($(window).width() < 768) {
         $('.tabs__slider:not(.slick-initialized)').slick({
@@ -139,4 +138,24 @@ $(window).on('load resize', function () {
     } else {
         $(".tabs__slider.slick-initialized").slick("unslick");
     }
+});
+
+document.addEventListener('click', function (event) {
+    const tabs = document.querySelectorAll('.ui-tabs-anchor');
+    tabs.forEach(function (item) {
+        if (event.target == item) {
+            $('.tabs__slider').slick('unslick');
+            $('.tabs__slider').slick({
+                infinite: true,
+                speed: 100,
+                slidesToShow: 1,
+            });
+        }
+    })
+});
+
+$(window).on("load", function () {
+    $(".scrollbar").mCustomScrollbar({
+        axis: "x",
+    });
 });

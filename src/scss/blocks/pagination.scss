@@ -1,3 +1,7 @@
+.pagination {
+    width: 100%;
+}
+
 .pagination__wrapper {
     border-top: 1px solid #c4c4c4;
     border-bottom: 1px solid #c4c4c4;
@@ -27,7 +31,7 @@
         @media (max-width: 1365px) {
             width: 45px;
         }
-        @media (max-width: 7678px) {
+        @media (max-width: 1023px) {
             width: 35px;
         }
     }
