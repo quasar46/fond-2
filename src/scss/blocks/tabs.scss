@@ -20,7 +20,12 @@
     }
 }
 
+.tabs__head::-webkit-scrollbar {
+    width: 0;
+}
+
 .tabs__head {
+    background-color: #000;
     border-bottom: 1px solid #c4c4c4;
     margin-bottom: 50px;
 
